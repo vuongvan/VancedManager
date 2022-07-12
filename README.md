@@ -1,7 +1,7 @@
 # Vanced Manager
 <div>
 
-[![Github All Releases](https://img.shields.io/github/downloads/YTVanced/VancedManager/total.svg?style=for-the-badge)](https://github.com/inotia00/VancedManager/releases/latest) [![Github All Releases](https://img.shields.io/github/release/YTVanced/VancedManager.svg?style=for-the-badge)](https://github.com/inotia00/VancedManager/releases/latest)
+[![Github All Releases](https://img.shields.io/github/downloads/inotia00/VancedManager/total.svg?style=for-the-badge)](https://github.com/inotia00/VancedManager/releases/latest) [![Github All Releases](https://img.shields.io/github/release/inotia00/VancedManager.svg?style=for-the-badge)](https://github.com/inotia00/VancedManager/releases/latest)
 
 </div>
 
@@ -40,7 +40,7 @@ For anyone who wants to provide translations please submit them to this [link](h
 
 <div>
 
-[![Build](https://github.com/inotia00/VancedManager/actions/workflows/debug.yml/badge.svg?branch=dev)](https://github.com/inotia00/VancedManager/actions/workflows/debug.yml)
+[![Build](https://github.com/jinoo2005609/VancedManager/actions/workflows/debug.yml/badge.svg?branch=dev)](https://github.com/jinoo2005609/VancedManager/actions/workflows/debug.yml)
 
 </div>
 
@@ -61,7 +61,3 @@ The Google Advanced Protection Program does not allow the installation of apps f
 chmod +x gradlew
 ./gradlew assembleDebug
 ```
-<<<<<<< HEAD
-=======
-
->>>>>>> 8b3f2c5e2ee59f5b9131c6872d65dfae3d489c0b
