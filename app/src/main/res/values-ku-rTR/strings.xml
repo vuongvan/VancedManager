@@ -12,7 +12,6 @@
     <!-- Main Activity -->
     <string name="title_about">Derbar</string>
     <string name="title_guide">Rêzan</string>
-    <string name="title_home">Rêvebirin</string>
     <string name="title_logs">Logs</string>
     <string name="title_settings">Sazkarî</string>
     <string name="update_manager">Rêveberê hildemîne</string>
@@ -38,7 +37,6 @@
     <string name="no_microg">Install Vanced microG first</string>
     <string name="root_not_granted">Rê li gihana Root nehate dayîn</string>
     <string name="social_media">Social Media</string>
-    <string name="support_us">Piştgiriya me bike</string>
     <string name="unavailable">Berdest nîne</string>
     <string name="version_installed">Saz bike:</string>
     <!-- Settings -->
@@ -47,8 +45,6 @@
     <string name="category_behaviour">Behavior</string>
     <string name="clear_files">Dosiyayên daxistî paqij bike</string>
     <string name="cleared_files">Dosiya, biserketî paqij bûn</string>
-    <string name="firebase_summary">Ev yek dihêle ku em di bara performansa sepanê û tomarên hilweşiyayî de agahiyan berhev bikin</string>
-    <string name="firebase_title">Analîza Firebase\'ê</string>
     <string name="language_title">Ziman</string>
     <string name="link_custom_tabs">Girêdan dê di hilpekên taybet ên Chrome\'ê de vebin</string>
     <string name="link_title">Hilpekên Chrome\'ê yên taybet bi kar bîne</string>
@@ -84,7 +80,6 @@
     <string name="miui_one_title">MIUI Optimizations are enabled!</string>
     <string name="please_be_patient">Please do NOT exit the app during this process!</string>
     <string name="redownload">Ji nû ve daxîne</string>
-    <string name="security_context">Piştrast bin ku we sepan ji vancedapp.com\'ê, ji servera Vanced Discord\'ê an Vanced GitHub\'ê daxistiye</string>
     <string name="version">Guherto</string>
     <string name="welcome">Bi xêr hatî</string>
     <!-- Install Page -->
@@ -117,4 +112,6 @@
     <string name="installation_storage">Installation failed because the device doesn\'t have enough free space.</string>
     <string name="modapk_missing">Dozîna dosiya apk ji bo rûkara reş/tarî ji sazkirinê bi ser neket. Daneyên sepanê ji rêveberê paqij bikin, paşê dîsa biceribîne.</string>
     <string name="path_missing">Piştî sazkirina dabeşkirî, dozîna rêka sazkirina YouTube stokê bi ser neket.</string>
+    <string name="uninstall_app_text">Are you sure you want to uninstall %1$s ?</string>
+    <string name="uninstall">Uninstall</string>
 </resources>

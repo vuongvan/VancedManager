@@ -12,7 +12,6 @@
     <!-- Main Activity -->
     <string name="title_about">Πληροφορίες</string>
     <string name="title_guide">Οδηγός για το Vanced</string>
-    <string name="title_home">Διαχειριστής Vanced</string>
     <string name="title_logs">Αρχείο καταγραφής σφαλμάτων</string>
     <string name="title_settings">Ρυθμίσεις</string>
     <string name="update_manager">Ενημέρωση Διαχειριστή Vanced</string>
@@ -38,7 +37,6 @@
     <string name="no_microg">Εγκαταστήστε πρώτα το Vanced microG</string>
     <string name="root_not_granted">Δεν επιτράπηκε η πρόσβαση Root</string>
     <string name="social_media">Μέσα Κοινωνικής Δικτύωσης</string>
-    <string name="support_us">Υποστηρίξτε μας</string>
     <string name="unavailable">Μη διαθέσιμο</string>
     <string name="version_installed">Εγκατεστημένη έκδοση:</string>
     <!-- Settings -->
@@ -47,8 +45,6 @@
     <string name="category_behaviour">Συμπεριφορά</string>
     <string name="clear_files">Εκκαθάριση ληφθέντων αρχείων</string>
     <string name="cleared_files">Επιτυχής εκκαθάριση αρχείων</string>
-    <string name="firebase_summary">Αυτό μας επιτρέπει να συλλέγουμε πληροφορίες σχετικά με την επίδοση της εφαρμογής και σχετικά με καταγραφές σφαλμάτων λογισμικού</string>
-    <string name="firebase_title">Firebase Analytics</string>
     <string name="language_title">Γλώσσα</string>
     <string name="link_custom_tabs">Οι σύνδεσμοι θα ανοίγουν σε προσαρμοσμένες καρτέλες chrome</string>
     <string name="link_title">Χρήση προσαρμοσμένων καρτέλων Chrome</string>
@@ -86,7 +82,6 @@
     <string name="uninstall_app_text">Είστε βέβαιοι ότι θέλετε να απεγκαταστήσετε το %1$s ;</string>
     <string name="uninstall">Απεγκατάσταση</string>
     <string name="redownload">Επανάληψη λήψης</string>
-    <string name="security_context">Βεβαιωθείτε ότι κάνατε λήψη της εφαρμογής από το vancedapp.com, τον διακομιστή Discord του Vanced ή το GitHub του Vanced</string>
     <string name="version">Έκδοση</string>
     <string name="welcome">Καλώς ορίσατε</string>
     <!-- Install Page -->

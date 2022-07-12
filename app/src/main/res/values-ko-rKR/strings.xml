@@ -12,7 +12,6 @@
     <!-- Main Activity -->
     <string name="title_about">정보</string>
     <string name="title_guide">가이드</string>
-    <string name="title_home">Manager</string>
     <string name="title_logs">로그</string>
     <string name="title_settings">설정</string>
     <string name="update_manager">매니저 업데이트</string>
@@ -38,7 +37,6 @@
     <string name="no_microg">Vanced microG를 우선 설치하십시오</string>
     <string name="root_not_granted">루트 권한이 부여되지 않았습니다</string>
     <string name="social_media">소셜 미디어</string>
-    <string name="support_us">지원하기</string>
     <string name="unavailable">사용 불가</string>
     <string name="version_installed">설치됨:</string>
     <!-- Settings -->
@@ -47,8 +45,6 @@
     <string name="category_behaviour">동작</string>
     <string name="clear_files">다운로드된 파일 모두 지우기</string>
     <string name="cleared_files">다운로드된 파일을 모두 삭제했습니다</string>
-    <string name="firebase_summary">앱 성능과 충돌 기록에 대한 정보를 수집할 수 있게 해줍니다</string>
-    <string name="firebase_title">Firebase 분석</string>
     <string name="language_title">언어</string>
     <string name="link_custom_tabs">링크가 Chrome 커스텀 탭으로 열립니다</string>
     <string name="link_title">Chrome 커스텀 탭으로 열기</string>
@@ -86,7 +82,7 @@
     <string name="uninstall_app_text">정말로 %1$s 앱을 제거하시겠습니까?</string>
     <string name="uninstall">제거</string>
     <string name="redownload">다시 다운로드</string>
-    <string name="security_context">항상 vancedapp.com, 공식 Vanced 디스코드 서버 또는 공식 GitHub 저장소에서 Vanced Manager 앱을 다운로드해주세요.</string>
+    <string name="security_context">가급적이면 GitHub에서 Vanced Manager 앱을 다운로드해주세요.</string>
     <string name="version">버전</string>
     <string name="welcome">환영합니다</string>
     <!-- Install Page -->

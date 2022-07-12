@@ -12,7 +12,6 @@
     <!-- Main Activity -->
     <string name="title_about">Quant a</string>
     <string name="title_guide">Guia</string>
-    <string name="title_home">Gestor</string>
     <string name="title_logs">Registre</string>
     <string name="title_settings">Configuració</string>
     <string name="update_manager">Gestor d\'actualitzacions</string>
@@ -38,7 +37,6 @@
     <string name="no_microg">Instal·la primer Vanced microG</string>
     <string name="root_not_granted">L\'accés arrel no s\'ha concedit</string>
     <string name="social_media">Xarxes socials</string>
-    <string name="support_us">Dóna\'ns suport</string>
     <string name="unavailable">No disponible</string>
     <string name="version_installed">Instal·lat:</string>
     <!-- Settings -->
@@ -47,8 +45,6 @@
     <string name="category_behaviour">Comportament</string>
     <string name="clear_files">Esborrar fitxers descarregats</string>
     <string name="cleared_files">Fitxers netejats correctament</string>
-    <string name="firebase_summary">Permet-te\'ns recollir informació sobre el rendiment de l\'aplicació i els registres d\'error</string>
-    <string name="firebase_title">Estadístiques de Firebase</string>
     <string name="language_title">Llengua</string>
     <string name="link_custom_tabs">Els enllaços s\'obriran en pestanyes personalitzades del Chrome</string>
     <string name="link_title">Utilitza pestanyes personalitzades del Chrome</string>
@@ -86,7 +82,6 @@
     <string name="uninstall_app_text">Esteu segurs que voleu desinstal·lar %1$s?</string>
     <string name="uninstall">Desinstal·la</string>
     <string name="redownload">Descarrega de nou</string>
-    <string name="security_context">Assegureu-vos que heu descarregat l\'aplicació des de vancedapp.com, el servidor de Discord de Vanced o el GitHub de Vanced</string>
     <string name="version">Versió</string>
     <string name="welcome">Benvingut</string>
     <!-- Install Page -->

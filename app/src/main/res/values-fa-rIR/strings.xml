@@ -12,7 +12,6 @@
     <!-- Main Activity -->
     <string name="title_about">درباره ما</string>
     <string name="title_guide">راهنما</string>
-    <string name="title_home">مدیریت</string>
     <string name="title_logs">گزارشات</string>
     <string name="title_settings">تنظیمات</string>
     <string name="update_manager">بروزرسانی کردن برنامه</string>
@@ -38,7 +37,6 @@
     <string name="no_microg">لطفاً اول microG را نصب کنید</string>
     <string name="root_not_granted">دسترسی به روت داده نشده است</string>
     <string name="social_media">رسانه های اجتماعی</string>
-    <string name="support_us">ما را پشتیبانی کنید</string>
     <string name="unavailable">غیر قابل دسترس</string>
     <string name="version_installed">نصب شده:</string>
     <!-- Settings -->
@@ -47,8 +45,6 @@
     <string name="category_behaviour">رفتار</string>
     <string name="clear_files">فایل های دانلود شده را پاک کنید</string>
     <string name="cleared_files">با موفقیت حذف شدند</string>
-    <string name="firebase_summary">این به ما امکان می‌دهد اطلاعاتی درباره عملکرد برنامه و گزارش‌های خرابی جمع‌آوری کنیم</string>
-    <string name="firebase_title">تجزیه و تحلیل بیس</string>
     <string name="language_title">زبان</string>
     <string name="link_custom_tabs">پیوندها در برگه‌های گوگل کروم باز می‌شوند</string>
     <string name="link_title">استفاده از صفحات های گوگل کروم</string>
@@ -86,7 +82,6 @@
     <string name="uninstall_app_text">آیا مطمئنید می‌خواهید حذف نصب کنید %1$s?</string>
     <string name="uninstall">حذف نصب</string>
     <string name="redownload">دانلود مجدد</string>
-    <string name="security_context">مطمئن شوید که برنامه را از vancedapp.com، سرور دیسکورد یا گیت هاپ دانلود کرده اید</string>
     <string name="version">نسخه</string>
     <string name="welcome">خوش آمدید</string>
     <!-- Install Page -->

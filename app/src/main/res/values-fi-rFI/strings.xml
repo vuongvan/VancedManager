@@ -12,7 +12,6 @@
     <!-- Main Activity -->
     <string name="title_about">Tietoja</string>
     <string name="title_guide">Opas</string>
-    <string name="title_home">Manager</string>
     <string name="title_logs">Lokit</string>
     <string name="title_settings">Asetukset</string>
     <string name="update_manager">Päivitä hallintasovellus</string>
@@ -38,7 +37,6 @@
     <string name="no_microg">Asenna Vanced microG ensin</string>
     <string name="root_not_granted">Pääkäyttäjän oikeuksia ei ole annettu</string>
     <string name="social_media">Social Media</string>
-    <string name="support_us">Support us</string>
     <string name="unavailable">Ei saatavilla</string>
     <string name="version_installed">Asennettu:</string>
     <!-- Settings -->
@@ -47,8 +45,6 @@
     <string name="category_behaviour">Käyttäytyminen</string>
     <string name="clear_files">Clear downloaded files</string>
     <string name="cleared_files">Successfully cleared files</string>
-    <string name="firebase_summary">This lets us collect information about app performance and crash logs</string>
-    <string name="firebase_title">Firebase Analytics</string>
     <string name="language_title">Language</string>
     <string name="link_custom_tabs">Linkit aukeavat Chromen mukautetuissa välilehdissä</string>
     <string name="link_title">Käytä Chromen mukautettuja välilehtiä</string>
@@ -86,7 +82,6 @@
     <string name="uninstall_app_text">Oletko varma, että haluat poistaa %1$s asennuksen?</string>
     <string name="uninstall">Poista</string>
     <string name="redownload">Redownload</string>
-    <string name="security_context">Varmista, että latasit sovelluksen osoitteesta vancedapp.com, Vanced Discord-palvelin tai Vanced GitHub</string>
     <string name="version">Version</string>
     <string name="welcome">Tervetuloa</string>
     <!-- Install Page -->

@@ -12,7 +12,6 @@
     <!-- Main Activity -->
     <string name="title_about">Om</string>
     <string name="title_guide">Guide</string>
-    <string name="title_home">Hanterare</string>
     <string name="title_logs">Loggar</string>
     <string name="title_settings">Inställningar</string>
     <string name="update_manager">Uppdatera hanteraren</string>
@@ -38,7 +37,6 @@
     <string name="no_microg">Installera Vanced microG först</string>
     <string name="root_not_granted">Root-åtkomst inte beviljat</string>
     <string name="social_media">Sociala medier</string>
-    <string name="support_us">Stöd oss</string>
     <string name="unavailable">Ej tillgänglig</string>
     <string name="version_installed">Installerad:</string>
     <!-- Settings -->
@@ -47,8 +45,6 @@
     <string name="category_behaviour">Beteende</string>
     <string name="clear_files">Rensa nedladdade filer</string>
     <string name="cleared_files">Rensade data</string>
-    <string name="firebase_summary">Detta gör att vi kan samla in information om appens prestanda och kraschloggar</string>
-    <string name="firebase_title">Firebase Analys</string>
     <string name="language_title">Språk</string>
     <string name="link_custom_tabs">Länkar öppnas i Chrome Custom Tabs</string>
     <string name="link_title">Använd Chrome-anpassade flikar</string>
@@ -86,7 +82,6 @@
     <string name="uninstall_app_text">Are you sure you want to uninstall %1$s ?</string>
     <string name="uninstall">Uninstall</string>
     <string name="redownload">Ladda ner igen</string>
-    <string name="security_context">Se till att du laddade ner appen från vancedapp.com, den Vanced Discord-servern eller den Vanced GitHub</string>
     <string name="version">Version</string>
     <string name="welcome">Välkommen</string>
     <!-- Install Page -->

@@ -12,7 +12,6 @@
     <!-- Main Activity -->
     <string name="title_about">കുറിച്ച്</string>
     <string name="title_guide">മാർഗരേഖ</string>
-    <string name="title_home">മാനേജർ</string>
     <string name="title_logs">ലോഗുകൾ</string>
     <string name="title_settings">ക്രമീകരണങ്ങൾ</string>
     <string name="update_manager">മാനേജർ പുതുക്കുക</string>
@@ -38,7 +37,6 @@
     <string name="no_microg">ആധ്യം വാൻസ്ഡ് മൈക്രോ-ജി ഇൻസ്റ്റാൾ ചെയ്യുക്ക</string>
     <string name="root_not_granted">റൂട്ട് ആക്സസ് അനുവദിച്ചിട്ടില്ല</string>
     <string name="social_media">സോഷ്യൽ മീഡിയ</string>
-    <string name="support_us">ഞങ്ങളെ പിന്തുണയ്ക്കുക</string>
     <string name="unavailable">ലഭ്യമല്ല</string>
     <string name="version_installed">ഇൻസ്റ്റാൾ ചെയ്തു:</string>
     <!-- Settings -->
@@ -47,8 +45,6 @@
     <string name="category_behaviour">പെരുമാറ്റം</string>
     <string name="clear_files">ഡൗൺലോഡുചെയ്‌ത ഫയലുകൾ മായ്‌ക്കുക</string>
     <string name="cleared_files">ഫയലുകൾ വിജയകരമായി മായ്ച്ചു</string>
-    <string name="firebase_summary">അപ്ലിക്കേഷൻ പ്രകടനത്തെയും ക്രാഷ് ലോഗുകളെയും കുറിച്ചുള്ള വിവരങ്ങൾ ശേഖരിക്കാൻ ഇത് ഞങ്ങളെ അനുവദിക്കുന്നു</string>
-    <string name="firebase_title">ഫയർബേസ് അനലിറ്റിക്സ്</string>
     <string name="language_title">ഭാഷ</string>
     <string name="link_custom_tabs">Chrome Custom ടാബുകളിൽ ലിങ്കുകൾ തുറക്കും</string>
     <string name="link_title">Chrome Custom ടാബുകൾ ഉപയോഗിക്കുക</string>
@@ -86,7 +82,6 @@
     <string name="uninstall_app_text">%1$s അൺ‌ഇൻസ്റ്റാൾ ചെയ്യണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ?</string>
     <string name="uninstall">അൺ‌ഇൻ‌സ്റ്റാൾ‌ ചെയ്യുക</string>
     <string name="redownload">വീണ്ടും ഡൗൺലോഡുചെയ്യുക</string>
-    <string name="security_context">നിങ്ങൾ vancedapp.com, Vanced Discord സെർവർ, അല്ലെങ്കിൽ Vanced GitHub എന്നിവയിൽ നിന്ന് അപ്ലിക്കേഷൻ download ൺലോഡ് ചെയ്തുവെന്ന് ഉറപ്പാക്കുക</string>
     <string name="version">പതിപ്പ്</string>
     <string name="welcome">സ്വാഗതം</string>
     <!-- Install Page -->

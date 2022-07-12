@@ -12,7 +12,6 @@
     <!-- Main Activity -->
     <string name="title_about">შესახებ</string>
     <string name="title_guide">ინსტრუქცია</string>
-    <string name="title_home">მენეჯერი</string>
     <string name="title_logs">ჟურნალი</string>
     <string name="title_settings">პარამეტრები</string>
     <string name="update_manager">მენეჯერის განახლება</string>
@@ -38,7 +37,6 @@
     <string name="no_microg">Install Vanced microG first</string>
     <string name="root_not_granted">Root წვდომა არ არის მინიჭებული</string>
     <string name="social_media">სოციალური მედია</string>
-    <string name="support_us">დაგვიჭირეთ მხარი</string>
     <string name="unavailable">ხელმიუწვდომელია</string>
     <string name="version_installed">დაინსტალირებული:</string>
     <!-- Settings -->
@@ -47,8 +45,6 @@
     <string name="category_behaviour">ფუნქციები</string>
     <string name="clear_files">გადმოწერილი ფაილების გაწმენდა</string>
     <string name="cleared_files">ფაილები წარმატებით გაიწმინდა</string>
-    <string name="firebase_summary">ეს გვაძლევს უფლებას მოვიპოვოთ ინფორმაცია აპის მუშაობის შესახებ</string>
-    <string name="firebase_title">Firebase-ის ანალიტიკა</string>
     <string name="language_title">ენა</string>
     <string name="link_custom_tabs">ლინკები გაიხსნება Chrome Custom Tabs-ში</string>
     <string name="link_title">გამოიყენეთ Chrome Custom Tabs</string>
@@ -86,7 +82,6 @@
     <string name="uninstall_app_text">Are you sure you want to uninstall %1$s ?</string>
     <string name="uninstall">Uninstall</string>
     <string name="redownload">თავიდან გადმოწერა</string>
-    <string name="security_context">დარწმუნდით, რომ აპი გადმოწერეთ vancedapp.com-იდან, Vanced Discord სერვერიდან ან GitHub-იდან</string>
     <string name="version">ვერსია</string>
     <string name="welcome">მოგესალმებით</string>
     <!-- Install Page -->

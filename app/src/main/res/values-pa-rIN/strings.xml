@@ -12,7 +12,6 @@
     <!-- Main Activity -->
     <string name="title_about">ਸਾਡੇ ਬਾਰੇ ਵਿੱਚ</string>
     <string name="title_guide">Guide</string>
-    <string name="title_home">ਮੈਨੇਜਰ</string>
     <string name="title_logs">Logs</string>
     <string name="title_settings">ਸੈਟਿੰਗਜ਼</string>
     <string name="update_manager">ਅਪਡੇਟ ਮੈਨੇਜਰ</string>
@@ -38,7 +37,6 @@
     <string name="no_microg">Install Vanced microG first</string>
     <string name="root_not_granted">ਰੂਟ ਐਕਸੈਸ ਨਹੀਂ ਦਿੱਤੀ ਗਈ</string>
     <string name="social_media">ਸੋਸ਼ਲ ਮੀਡੀਆ</string>
-    <string name="support_us">ਸਾਡਾ ਸਮਰਥਨ ਕਰੋ</string>
     <string name="unavailable">ਮੋਜੂਦ ਨਹੀਂ ਹੈ</string>
     <string name="version_installed">ਸਥਾਪਿਤ:</string>
     <!-- Settings -->
@@ -47,8 +45,6 @@
     <string name="category_behaviour">ਵਿਹਾਰ</string>
     <string name="clear_files">ਡਾਉਨਲੋਡ ਕੀਤੀਆਂ ਫਾਇਲਾਂ ਸਾਫ਼ ਕਰੋ</string>
     <string name="cleared_files">ਸਫਲਤਾਪੂਰਵਕ ਫਾਈਲਾਂ ਸਾਫ਼ ਕੀਤੀਆਂ</string>
-    <string name="firebase_summary">ਇਹ ਸਾਨੂੰ ਐਪ ਪ੍ਰਦਰਸ਼ਨ ਅਤੇ ਕਰੈਸ਼ ਲੌਗਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਇਕੱਠੀ ਕਰਨ ਦਿੰਦਾ ਹੈ</string>
-    <string name="firebase_title">ਫਾਇਰਬੇਸ ਵਿਸ਼ਲੇਸ਼ਣ</string>
     <string name="language_title">ਭਾਸ਼ਾ</string>
     <string name="link_custom_tabs">ਲਿੰਕ ਕਰੋਮ ਕਸਟਮ ਟੈਬਸ ਵਿੱਚ ਖੁੱਲ੍ਹਣਗੇ</string>
     <string name="link_title">ਕਰੋਮ ਕਸਟਮ ਟੈਬਸ ਦੀ ਵਰਤੋਂ ਕਰੋ</string>
@@ -86,7 +82,6 @@
     <string name="uninstall_app_text">Are you sure you want to uninstall %1$s ?</string>
     <string name="uninstall">Uninstall</string>
     <string name="redownload">ਮੁੜ ਡਾਉਨਲੋਡ</string>
-    <string name="security_context">ਪੱਕਾ ਕਰੋ ਕਿ ਤੁਸੀਂ vancedapp.com, Vanced Discord ਸਰਵਰ ਜਾਂ Vanced GitHub ਤੋਂ ਐਪ ਡਾਉਨਲੋਡ ਕੀਤਾ ਹੈ</string>
     <string name="version">ਵਰਜਨ</string>
     <string name="welcome">ਜੀ ਆਇਆਂ ਨੂੰ</string>
     <!-- Install Page -->

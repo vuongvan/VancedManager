@@ -12,7 +12,6 @@
     <!-- Main Activity -->
     <string name="title_about">Tentang</string>
     <string name="title_guide">Petunjuk</string>
-    <string name="title_home">Manager</string>
     <string name="title_logs">Logs</string>
     <string name="title_settings">Pengaturan</string>
     <string name="update_manager">Perbarui Manager</string>
@@ -38,7 +37,6 @@
     <string name="no_microg">Pasang Vanced microG terlebih dahulu</string>
     <string name="root_not_granted">Akses Root tidak diberikan</string>
     <string name="social_media">Media Sosial</string>
-    <string name="support_us">Dukung kami</string>
     <string name="unavailable">Tidak tersedia</string>
     <string name="version_installed">Terpasang:</string>
     <!-- Settings -->
@@ -47,8 +45,6 @@
     <string name="category_behaviour">Perilaku</string>
     <string name="clear_files">Hapus berkas yang terunduh</string>
     <string name="cleared_files">Berhasil menghapus berkas</string>
-    <string name="firebase_summary">Analisis firebase mengizinkan kami mengumpulkan informasi tentang performa aplikasi dan catatan crash</string>
-    <string name="firebase_title">Analisis Firebase</string>
     <string name="language_title">Bahasa</string>
     <string name="link_custom_tabs">Tautan akan terbuka di Chrome Custom Tabs</string>
     <string name="link_title">Gunakan Chrome Custom Tabs</string>
@@ -86,7 +82,6 @@
     <string name="uninstall_app_text">Apakah Anda yakin ingin mencopot pemasangan %1$s ?</string>
     <string name="uninstall">Copot pemasangan</string>
     <string name="redownload">Unduh ulang</string>
-    <string name="security_context">Pastikan Anda mengunduh aplikasi ini dari vancedapp.com, server Discord Vanced, atau Vanced Github</string>
     <string name="version">Versi</string>
     <string name="welcome">Selamat datang</string>
     <!-- Install Page -->

@@ -15,24 +15,9 @@ class LinkAdapter(
     private val viewModel: HomeViewModel
 ) : RecyclerView.Adapter<LinkAdapter.LinkViewHolder>() {
 
-    private val instagram = LinkModel(
-        AppCompatResources.getDrawable(context, R.drawable.ic_instagram),
-        INSTAGRAM
-    )
-
-    private val youtube = LinkModel(
-        AppCompatResources.getDrawable(context, R.drawable.ic_youtube),
-        YOUTUBE
-    )
-
     private val github = LinkModel(
         AppCompatResources.getDrawable(context, R.drawable.ic_github),
         GITHUB
-    )
-
-    private val website = LinkModel(
-        AppCompatResources.getDrawable(context, R.drawable.ic_website),
-        WEBSITE
     )
 
     private val telegram = LinkModel(
@@ -40,22 +25,7 @@ class LinkAdapter(
         TELEGRAM
     )
 
-    private val twitter = LinkModel(
-        AppCompatResources.getDrawable(context, R.drawable.ic_twitter),
-        TWITTER
-    )
-
-    private val discord = LinkModel(
-        AppCompatResources.getDrawable(context, R.drawable.ic_discord),
-        DISCORD
-    )
-
-    private val reddit = LinkModel(
-        AppCompatResources.getDrawable(context, R.drawable.ic_reddit),
-        REDDIT
-    )
-
-    val links = arrayOf(instagram, youtube, github, website, telegram, twitter, discord, reddit)
+    val links = arrayOf(github, telegram)
 
     inner class LinkViewHolder(private val binding: ViewSocialLinkBinding) :
         RecyclerView.ViewHolder(binding.root) {
@@ -82,14 +52,8 @@ class LinkAdapter(
     override fun getItemCount(): Int = links.size
 
     companion object {
-        const val INSTAGRAM = "https://instagram.com/vanced.youtube"
-        const val YOUTUBE = "https://youtube.com/c/YouTubeVanced"
-        const val GITHUB = "https://github.com/YTVanced/VancedManager"
-        const val WEBSITE = "https://vancedapp.com"
-        const val TELEGRAM = "https://t.me/joinchat/AAAAAEHf-pi4jH1SDlAL4w"
-        const val TWITTER = "https://twitter.com/YTVanced"
-        const val DISCORD = "https://discord.gg/WCGNdRruzb"
-        const val REDDIT = "https://www.reddit.com/r/Vanced/"
+        const val GITHUB = "https://github.com/inotia00/VancedManager"
+        const val TELEGRAM = "https://t.me/vanced_mod_archive"
     }
 
 }

@@ -12,7 +12,6 @@
     <!-- Main Activity -->
     <string name="title_about">Over</string>
     <string name="title_guide">Gids</string>
-    <string name="title_home">Manager</string>
     <string name="title_logs">Logs</string>
     <string name="title_settings">Instellingen</string>
     <string name="update_manager">Manager bijwerken</string>
@@ -38,7 +37,6 @@
     <string name="no_microg">Installeer eerst Vanced microG</string>
     <string name="root_not_granted">Root machtiging niet toegestaan</string>
     <string name="social_media">Sociale media</string>
-    <string name="support_us">Steun ons</string>
     <string name="unavailable">Niet beschikbaar</string>
     <string name="version_installed">Geïnstalleerd:</string>
     <!-- Settings -->
@@ -47,8 +45,6 @@
     <string name="category_behaviour">Gedrag</string>
     <string name="clear_files">Gedownloade bestanden verwijderen</string>
     <string name="cleared_files">Bestanden succesvol verwijderd</string>
-    <string name="firebase_summary">Hiermee kunnen we informatie over app-prestaties en crashlogs verzamelen</string>
-    <string name="firebase_title">Firebase-analytics</string>
     <string name="language_title">Taal</string>
     <string name="link_custom_tabs">Links zullen openen in aangepaste Chrome-tabs</string>
     <string name="link_title">Aangepaste Chrome-tabs gebruiken</string>
@@ -86,7 +82,6 @@
     <string name="uninstall_app_text">Weet je zeker dat je %1$s wil verwijderen?</string>
     <string name="uninstall">Verwijderen</string>
     <string name="redownload">Opnieuw downloaden</string>
-    <string name="security_context">Zorg ervoor dat je de app hebt gedownload van vancedapp.com, de Vanced Discord-server of Vanced GitHub</string>
     <string name="version">Versie</string>
     <string name="welcome">Welkom</string>
     <!-- Install Page -->
