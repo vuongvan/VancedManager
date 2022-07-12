@@ -40,7 +40,7 @@ For anyone who wants to provide translations please submit them to this [link](h
 
 <div>
 
-[![Build](https://github.com/jinoo2005609/VancedManager/actions/workflows/debug.yml/badge.svg?branch=dev)](https://github.com/jinoo2005609/VancedManager/actions/workflows/debug.yml)
+[![Build](https://github.com/inotia00/VancedManager/actions/workflows/debug.yml/badge.svg?branch=dev)](https://github.com/inotia00/VancedManager/actions/workflows/debug.yml)
 
 </div>
 
