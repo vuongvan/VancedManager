@@ -14,7 +14,7 @@ android {
         applicationId = "com.vanced.manager"
         minSdk = 21
         targetSdk = 31
-        versionCode = 220712
+        versionCode = 220714
         versionName = "2.6.3 (Echo)"
 
         vectorDrawables {
@@ -34,7 +34,8 @@ android {
 
     buildTypes {
         getByName("release") {
-            isMinifyEnabled = true
+        	// If you change "isMinifyEnabled = false" to "isMinifyEnabled = true," the app size will be greatly reduced, but for some reason, if you build with "release", the VirusTotal test results shows that Trojan is present.
+            isMinifyEnabled = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
