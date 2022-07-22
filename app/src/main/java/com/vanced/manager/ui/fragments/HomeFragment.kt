@@ -26,6 +26,7 @@ import com.vanced.manager.databinding.FragmentHomeBinding
 import com.vanced.manager.ui.dialogs.AppInfoDialog
 import com.vanced.manager.ui.dialogs.DialogContainer.installAlertBuilder
 import com.vanced.manager.ui.viewmodels.HomeViewModel
+import com.vanced.manager.ui.viewmodels.HomeViewModelFactory
 import com.vanced.manager.utils.isFetching
 import com.vanced.manager.utils.manager
 
@@ -36,7 +37,9 @@ class HomeFragment : BindingFragment<FragmentHomeBinding>() {
         const val REFRESH_HOME = "REFRESH_HOME"
     }
 
-    private val viewModel: HomeViewModel by viewModels()
+    private val viewModel: HomeViewModel by viewModels {
+        HomeViewModelFactory(requireActivity())
+    }
 
     private val localBroadcastManager by lazy { LocalBroadcastManager.getInstance(requireActivity()) }
 

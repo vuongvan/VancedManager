@@ -7,7 +7,6 @@ import android.widget.RadioGroup
 import androidx.core.graphics.ColorUtils
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentActivity
-import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.LifecycleOwner
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.progressindicator.LinearProgressIndicator
@@ -23,16 +22,12 @@ val RadioGroup.checkedButtonTag: String?
         checkedRadioButtonId
     )?.tag?.toString()
 
-fun DialogFragment.show(fragmentManager: FragmentManager) {
+fun DialogFragment.show(activity: FragmentActivity) {
     try {
-        show(fragmentManager, "")
+        show(activity.supportFragmentManager, "")
     } catch (e: Exception) {
         log("VMUI", e.stackTraceToString())
     }
-}
-
-fun DialogFragment.show(activity: FragmentActivity) {
-    show(activity.supportFragmentManager)
 }
 
 fun List<String>.convertToAppVersions(): List<String> = listOf("latest") + reversed()
