@@ -1,6 +1,6 @@
 package com.vanced.manager.adapter
 
-/*import android.content.Context
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.appcompat.content.res.AppCompatResources
@@ -42,7 +42,7 @@ class SponsorAdapter(
             with(binding) {
                 sponsorName.text = sponsors[position].name
                 cardSponsor.setOnClickListener {
-                    viewModel.openUrl(sponsors[position].url)
+                    viewModel.openUrl(context, sponsors[position].url)
                 }
             }
         }
@@ -65,4 +65,4 @@ class SponsorAdapter(
         const val ADGUARD = "https://adguard.com/?aid=31141&source=manager"
     }
 
-}*/
+}

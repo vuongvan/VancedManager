@@ -12,6 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">ข้อมูลเกี่ยวกับทีมนักพัฒนา</string>
     <string name="title_guide">แนะนำ</string>
+    <string name="title_home">ตัวจัดการ</string>
     <string name="title_logs">บันทึกข้อมูลระบบ</string>
     <string name="title_settings">ตั้งค่า</string>
     <string name="update_manager">อัพเดทตัวจัดการ</string>
@@ -37,6 +38,7 @@
     <string name="no_microg">ติดตั้ง Vanced microG ก่อน</string>
     <string name="root_not_granted">ไม่ได้รับสิทธิ์ของรูท</string>
     <string name="social_media">สื่อสังคม</string>
+    <string name="support_us">สนับสนุนพวกเรา</string>
     <string name="unavailable">ไม่สามารถใช้ได้</string>
     <string name="version_installed">ติดตั้งแล้ว:</string>
     <!-- Settings -->
@@ -45,6 +47,8 @@
     <string name="category_behaviour">ลักษณะการทำงาน</string>
     <string name="clear_files">ล้างไฟล์ที่ดาวน์โหลดไว้</string>
     <string name="cleared_files">ล้างข้อมูลเรียบร้อยแล้ว</string>
+    <string name="firebase_summary">สำหรับ รวบรวมข้อมูลเกี่ยวกับประสิทธิภาพของแอป และบันทึกข้อขัดข้อง</string>
+    <string name="firebase_title">การวิเคราะห์ Firebase</string>
     <string name="language_title">ภาษา</string>
     <string name="link_custom_tabs">ลิ้งค์จะเปิดไปยังแท็บที่กำหนดเองของ Chrome</string>
     <string name="link_title">ใช้แท็บที่กำหนดเองของ Chrome</string>
@@ -82,6 +86,7 @@
     <string name="uninstall_app_text">Are you sure you want to uninstall %1$s?</string>
     <string name="uninstall">Uninstall</string>
     <string name="redownload">ดาวน์โหลดอีกครั้ง</string>
+    <string name="security_context">ตรวจสอบให้แน่ใจว่าคุณดาวน์โหลดแอพจากช่องทางที่ถูกต้อง vancedapp.com, เซิร์ฟเวอร์ Vanced Discord หรือ Vanced GitHub</string>
     <string name="version">รุ่น</string>
     <string name="welcome">ยินดีต้อนรับ</string>
     <!-- Install Page -->

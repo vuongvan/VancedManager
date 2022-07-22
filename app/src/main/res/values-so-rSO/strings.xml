@@ -12,6 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">Anaga</string>
     <string name="title_guide">Guide</string>
+    <string name="title_home">Maamule</string>
     <string name="title_logs">Logs</string>
     <string name="title_settings">Fadhiga</string>
     <string name="update_manager">Cusboonaysii</string>
@@ -37,6 +38,7 @@
     <string name="no_microg">Install Vanced microG first</string>
     <string name="root_not_granted">\'Root\' looma fasaxin</string>
     <string name="social_media">Baraha Bulshada</string>
+    <string name="support_us">Na taageer</string>
     <string name="unavailable">Lama heli karo</string>
     <string name="version_installed">Ka kujira:</string>
     <!-- Settings -->
@@ -45,6 +47,8 @@
     <string name="category_behaviour">Dabeecada</string>
     <string name="clear_files">Nadiifi waxyaabaha lasoo dajiyay</string>
     <string name="cleared_files">Waa la nadiifiyay</string>
+    <string name="firebase_summary">Tani waxay noo ogolaanaysaa inaan uruurino xog ku saabsan shaqaynta app-ka iyo kaydinta xogta khaladaadka dhaca</string>
+    <string name="firebase_title">Falanqaynta Firebase</string>
     <string name="language_title">Luuqada</string>
     <string name="link_custom_tabs">Linkiyadu waxay ku furmi doonaan daaqadaha Chrome-ka ee loogu talagalay</string>
     <string name="link_title">Isticmaal Daaqadaha Chrome</string>
@@ -82,6 +86,7 @@
     <string name="uninstall_app_text">Are you sure you want to uninstall %1$s ?</string>
     <string name="uninstall">Uninstall</string>
     <string name="redownload">Dib udaji</string>
+    <string name="security_context">Iska hubi inaad app-ka kaso dajisatay vancedapp.com, xaga martigaliyaha Discord, ama meesha Vanced ee GitHub</string>
     <string name="version">Tirsiga</string>
     <string name="welcome">Soo dhawoow</string>
     <!-- Install Page -->

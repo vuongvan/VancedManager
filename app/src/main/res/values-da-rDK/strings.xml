@@ -12,6 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">Om</string>
     <string name="title_guide">Guide</string>
+    <string name="title_home">Manager</string>
     <string name="title_logs">Logfiler</string>
     <string name="title_settings">Indstillinger</string>
     <string name="update_manager">Opdaterings Manager</string>
@@ -37,6 +38,7 @@
     <string name="no_microg">Installer først Vanced microG</string>
     <string name="root_not_granted">Root adgang ikke tildelt</string>
     <string name="social_media">Sociale medier</string>
+    <string name="support_us">Støt os</string>
     <string name="unavailable">Utilgængelig</string>
     <string name="version_installed">Installeret:</string>
     <!-- Settings -->
@@ -45,6 +47,8 @@
     <string name="category_behaviour">Adfærd</string>
     <string name="clear_files">Ryd hentede filer</string>
     <string name="cleared_files">Filer ryddet succesfuldt</string>
+    <string name="firebase_summary">Dette giver os mulighed for at indsamle oplysninger om appens ydeevne og nedbruds logs</string>
+    <string name="firebase_title">Firebase analyse</string>
     <string name="language_title">Sprog</string>
     <string name="link_custom_tabs">Links vil åbne i Chrome Custom Faner</string>
     <string name="link_title">Brug Chrome Custom Faner</string>
@@ -82,6 +86,7 @@
     <string name="uninstall_app_text">Er du sikker på, at du vil afinstallere %1$s?</string>
     <string name="uninstall">Afinstaller</string>
     <string name="redownload">Hent igen</string>
+    <string name="security_context">Venligst sørg for kun at have downloaded appen fra vancedapp.com, Vanced Discord serveren eller Vanced GitHub siden</string>
     <string name="version">Version</string>
     <string name="welcome">Velkommen</string>
     <!-- Install Page -->

@@ -12,6 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">Teave</string>
     <string name="title_guide">Juhend</string>
+    <string name="title_home">Haldur</string>
     <string name="title_logs">Logid</string>
     <string name="title_settings">Seaded</string>
     <string name="update_manager">Uuenduste Haldur</string>
@@ -37,6 +38,7 @@
     <string name="no_microg">Installi Vanced MicroG esimesena</string>
     <string name="root_not_granted">Administraatoriõigusi ei tagatud</string>
     <string name="social_media">Sotsiaalmeedia</string>
+    <string name="support_us">Toetage meid</string>
     <string name="unavailable">Pole saadaval</string>
     <string name="version_installed">Installitud:</string>
     <!-- Settings -->
@@ -45,6 +47,8 @@
     <string name="category_behaviour">Käitumine</string>
     <string name="clear_files">Tühjenda allalaaditud failid</string>
     <string name="cleared_files">Failid on edukalt puhastatud</string>
+    <string name="firebase_summary">See lubab meil koguda informatsiooni äpi jõudluse ja rikkelogi kohta</string>
+    <string name="firebase_title">Firebase Analytics</string>
     <string name="language_title">Keel</string>
     <string name="link_custom_tabs">Lingid avatakse Chrome kohandatud vahekaartides</string>
     <string name="link_title">Kasuta Chrome kohandatud vahekaarte</string>
@@ -82,6 +86,7 @@
     <string name="uninstall_app_text">Kas soovite kindlasti desinstallida %1$s?</string>
     <string name="uninstall">Desinstalli</string>
     <string name="redownload">Lae uuesti alla</string>
+    <string name="security_context">Veenduge, et laadisite rakenduse alla vancedapp.com, Vanced Discordi serverist või Vanced GitHubist</string>
     <string name="version">Versioon</string>
     <string name="welcome">Tere tulemast</string>
     <!-- Install Page -->

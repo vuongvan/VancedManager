@@ -12,6 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">אודות</string>
     <string name="title_guide">מדריך</string>
+    <string name="title_home">מנהל</string>
     <string name="title_logs">יומני רישום</string>
     <string name="title_settings">הגדרות</string>
     <string name="update_manager">מנהל העדכונים</string>
@@ -37,6 +38,7 @@
     <string name="no_microg">התקן את שירותי Google של Vanced תחילה</string>
     <string name="root_not_granted">לא הוענקו הרשאות Root</string>
     <string name="social_media">רשתות חברתיות</string>
+    <string name="support_us">תמכו בנו</string>
     <string name="unavailable">לא זמין</string>
     <string name="version_installed">מותקן:</string>
     <!-- Settings -->
@@ -45,6 +47,8 @@
     <string name="category_behaviour">התנהגות</string>
     <string name="clear_files">מחק קבצים שהורדו</string>
     <string name="cleared_files">מחיקת הקבצים הסתיימה בהצלחה</string>
+    <string name="firebase_summary">מאפשר לנו לאסוף מידע על ביצועי היישום וסיבות לקריסתו</string>
+    <string name="firebase_title">ניתוח מידע משתמש</string>
     <string name="language_title">שפה</string>
     <string name="link_custom_tabs">קישורים יפתחו בכרטיסיות מותאמות אישית של Chrome</string>
     <string name="link_title">השתמש בכרטיסייה מותאמת אישית של Chrome</string>
@@ -82,6 +86,7 @@
     <string name="uninstall_app_text">האם אתה בטוח שברצונך להסיר את ההתקנה של %1$s?</string>
     <string name="uninstall">הסר התקנה</string>
     <string name="redownload">הורד מחדש</string>
+    <string name="security_context">ודא שהורדת את האפליקציה מהאתר vancedapp.com, שרת הדיסקורד של Vanced או מהעמוד של Vanced ב־GitHub</string>
     <string name="version">גרסא</string>
     <string name="welcome">ברוכים הבאים</string>
     <!-- Install Page -->

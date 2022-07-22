@@ -12,6 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">Относно</string>
     <string name="title_guide">Ръководство</string>
+    <string name="title_home">Мениджър</string>
     <string name="title_logs">Логове</string>
     <string name="title_settings">Настройки</string>
     <string name="update_manager">Обнови Vanced Manager</string>
@@ -37,6 +38,7 @@
     <string name="no_microg">Инсталирайте първо Vanced microG</string>
     <string name="root_not_granted">Root достъп не е разрешен</string>
     <string name="social_media">Социални медии</string>
+    <string name="support_us">Подкрепете ни</string>
     <string name="unavailable">Недостъпно</string>
     <string name="version_installed">Инсталиранa:</string>
     <!-- Settings -->
@@ -45,6 +47,8 @@
     <string name="category_behaviour">Поведение</string>
     <string name="clear_files">Изчисти изтеглените файлове</string>
     <string name="cleared_files">Файловете са изчистени успешно</string>
+    <string name="firebase_summary">Позволява ни да събираме информация за поведението на приложението и доклади за сривове</string>
+    <string name="firebase_title">Firebase анализ</string>
     <string name="language_title">Език</string>
     <string name="link_custom_tabs">Връзките ще се отварят в персонализирани раздели на Chrome</string>
     <string name="link_title">Ползвай персонализирани раздели на Chrome</string>
@@ -82,6 +86,7 @@
     <string name="uninstall_app_text">Наистина ли искате да деинсталирате %1$s?</string>
     <string name="uninstall">Деинсталиране</string>
     <string name="redownload">Изтегли отново</string>
+    <string name="security_context">Уверете се, че сте изтеглили приложението от vancedapp.com, Vanced Discord сървъра или от Vanced GitHub</string>
     <string name="version">Версия</string>
     <string name="welcome">Добре дошли</string>
     <!-- Install Page -->

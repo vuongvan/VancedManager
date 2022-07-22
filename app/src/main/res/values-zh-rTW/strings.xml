@@ -12,6 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">關於</string>
     <string name="title_guide">說明</string>
+    <string name="title_home">Manager</string>
     <string name="title_logs">日誌</string>
     <string name="title_settings">設定</string>
     <string name="update_manager">更新 Manager</string>
@@ -37,6 +38,7 @@
     <string name="no_microg">請先安裝 Vanced microG</string>
     <string name="root_not_granted">未授予 Root 權限</string>
     <string name="social_media">社交媒體</string>
+    <string name="support_us">支持我們</string>
     <string name="unavailable">無法使用</string>
     <string name="version_installed">已安裝：</string>
     <!-- Settings -->
@@ -45,6 +47,8 @@
     <string name="category_behaviour">行為</string>
     <string name="clear_files">清除已下載的檔案</string>
     <string name="cleared_files">成功清除檔案</string>
+    <string name="firebase_summary">這讓我們可以收集關於應用程式效能和崩潰日誌的資訊</string>
+    <string name="firebase_title">Firebase 分析</string>
     <string name="language_title">語言</string>
     <string name="link_custom_tabs">連結會使用 Chrome Custom Tabs 開啟</string>
     <string name="link_title">使用 Chrome Custom Tabs</string>
@@ -82,6 +86,7 @@
     <string name="uninstall_app_text">你確定要解除安裝 %1$s 嗎？</string>
     <string name="uninstall">解除安裝</string>
     <string name="redownload">重新下載</string>
+    <string name="security_context">請確保您從 vancedapp.com、Vanced Discord 伺服器或 Vanced GitHub 下載本程式</string>
     <string name="version">版本</string>
     <string name="welcome">歡迎</string>
     <!-- Install Page -->

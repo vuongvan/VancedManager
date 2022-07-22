@@ -1,8 +1,11 @@
 package com.vanced.manager.ui
 
+import android.content.ActivityNotFoundException
+import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.content.res.Configuration
+import android.net.Uri
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
@@ -12,6 +15,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
 import androidx.preference.PreferenceManager.getDefaultSharedPreferences
+import com.google.firebase.messaging.FirebaseMessaging
 import com.vanced.manager.BuildConfig.VERSION_CODE
 import com.vanced.manager.R
 import com.vanced.manager.databinding.ActivityMainBinding
@@ -22,8 +26,11 @@ import com.vanced.manager.ui.fragments.HomeFragmentDirections
 import com.vanced.manager.ui.fragments.SettingsFragmentDirections
 import com.vanced.manager.utils.*
 import com.vanced.manager.utils.AppUtils.currentLocale
+import com.vanced.manager.utils.AppUtils.faqpkg
 import com.vanced.manager.utils.AppUtils.log
+import com.vanced.manager.utils.AppUtils.playStorePkg
 import com.vanced.manager.utils.AppUtils.vancedRootPkg
+import com.vanced.manager.utils.PackageHelper.isPackageInstalled
 
 class MainActivity : AppCompatActivity() {
 
@@ -51,7 +58,7 @@ class MainActivity : AppCompatActivity() {
         initDialogs(intent.getBooleanExtra("firstLaunch", false))
         manager.observe(this) {
             if (manager.value?.int("versionCode") ?: 0 > VERSION_CODE) {
-				ManagerUpdateDialog.newInstance(true).show(this)
+                ManagerUpdateDialog.newInstance(true).show(this)
             }
         }
     }
@@ -149,6 +156,11 @@ class MainActivity : AppCompatActivity() {
 
         if (firstLaunch) {
             DialogContainer.showSecurityDialog(this)
+            with(FirebaseMessaging.getInstance()) {
+                subscribeToTopic("Vanced-Update")
+                subscribeToTopic("Music-Update")
+                subscribeToTopic("MicroG-Update")
+            }
         } else {
             if (isMiuiOptimizationsEnabled) {
                 DialogContainer.miuiDialog(this)

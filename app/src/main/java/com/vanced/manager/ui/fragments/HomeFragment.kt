@@ -19,13 +19,13 @@ import com.vanced.manager.BuildConfig.VERSION_CODE
 import com.vanced.manager.R
 import com.vanced.manager.adapter.ExpandableAppListAdapter
 import com.vanced.manager.adapter.LinkAdapter
+import com.vanced.manager.adapter.SponsorAdapter
 import com.vanced.manager.core.ui.base.BindingFragment
 import com.vanced.manager.core.ui.ext.showDialog
 import com.vanced.manager.databinding.FragmentHomeBinding
 import com.vanced.manager.ui.dialogs.AppInfoDialog
 import com.vanced.manager.ui.dialogs.DialogContainer.installAlertBuilder
 import com.vanced.manager.ui.viewmodels.HomeViewModel
-import com.vanced.manager.ui.viewmodels.HomeViewModelFactory
 import com.vanced.manager.utils.isFetching
 import com.vanced.manager.utils.manager
 
@@ -36,9 +36,7 @@ class HomeFragment : BindingFragment<FragmentHomeBinding>() {
         const val REFRESH_HOME = "REFRESH_HOME"
     }
 
-    private val viewModel: HomeViewModel by viewModels {
-        HomeViewModelFactory(requireActivity())
-    }
+    private val viewModel: HomeViewModel by viewModels()
 
     private val localBroadcastManager by lazy { LocalBroadcastManager.getInstance(requireActivity()) }
 
@@ -84,6 +82,7 @@ class HomeFragment : BindingFragment<FragmentHomeBinding>() {
                 lm.justifyContent = JustifyContent.SPACE_EVENLY
                 layoutManager = lm
                 setHasFixedSize(true)
+                adapter = SponsorAdapter(requireActivity(), viewModel)
             }
 
             recyclerLinks.apply {

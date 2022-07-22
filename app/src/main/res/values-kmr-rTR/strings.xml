@@ -12,6 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">Derbarê de</string>
     <string name="title_guide">Rêber</string>
+    <string name="title_home">Rêveber</string>
     <string name="title_logs">Tomar</string>
     <string name="title_settings">Sazkarî</string>
     <string name="update_manager">Rêveberê Nûve bike</string>
@@ -37,6 +38,7 @@
     <string name="no_microg">Pêşîn Vanced microG saz bikin</string>
     <string name="root_not_granted">Destlênedanên kokê nayê dayîn</string>
     <string name="social_media">Medyaya Civakî</string>
+    <string name="support_us">Piştgiriya me bikin</string>
     <string name="unavailable">Neberdest</string>
     <string name="version_installed">Sazkirî:</string>
     <!-- Settings -->
@@ -45,6 +47,8 @@
     <string name="category_behaviour">Tevger</string>
     <string name="clear_files">Pelên dakêşandî paqij bikin</string>
     <string name="cleared_files">Pelên bi serkeftî hatin paqijkirin</string>
+    <string name="firebase_summary">Ev dibe ku em di derbarê performansa sepan û tomarê têkçûyî de agahdariyan berhev bikin</string>
+    <string name="firebase_title">Firebase Analytics</string>
     <string name="language_title">Ziman</string>
     <string name="link_custom_tabs">Girêdan dê di hilpekên taybet ên Chrome\'ê de vebin</string>
     <string name="link_title">Hilpekên Chrome\'ê yên taybet bi kar bîne</string>
@@ -82,6 +86,7 @@
     <string name="uninstall_app_text">Tu bawerî ku tu dixwazî %1$s rakî?</string>
     <string name="uninstall">Rake</string>
     <string name="redownload">Ji nû ve daxîne</string>
+    <string name="security_context">Pê bawer bin ku te ev sepan ji vancedapp.com, servera Discord a Vanced an jî JiGitHub ya Vanced dakêşandine</string>
     <string name="version">Versiyon</string>
     <string name="welcome">Bi xêr hatî</string>
     <!-- Install Page -->

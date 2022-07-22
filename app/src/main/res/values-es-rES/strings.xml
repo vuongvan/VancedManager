@@ -12,6 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">Información</string>
     <string name="title_guide">Guía</string>
+    <string name="title_home">Manager</string>
     <string name="title_logs">Registros</string>
     <string name="title_settings">Ajustes</string>
     <string name="update_manager">Actualizar Manager</string>
@@ -37,6 +38,7 @@
     <string name="no_microg">Primero, instala Vanced microG</string>
     <string name="root_not_granted">Acceso root no concedido</string>
     <string name="social_media">Redes Sociales</string>
+    <string name="support_us">Apóyanos</string>
     <string name="unavailable">No Disponible</string>
     <string name="version_installed">Instalado:</string>
     <!-- Settings -->
@@ -45,6 +47,8 @@
     <string name="category_behaviour">Comportamiento</string>
     <string name="clear_files">Limpiar archivos descargados</string>
     <string name="cleared_files">Archivos limpiados exitosamente</string>
+    <string name="firebase_summary">Esto nos permite recopilar información sobre el rendimiento de la aplicación y los registros de errores</string>
+    <string name="firebase_title">Analíticas de Firebase</string>
     <string name="language_title">Idioma</string>
     <string name="link_custom_tabs">Links serán abiertos en Chrome Custom Tabs</string>
     <string name="link_title">Usar Chrome Custom Tabs</string>
@@ -82,6 +86,7 @@
     <string name="uninstall_app_text">¿Estás seguro de que quieres desinstalar %1$s?</string>
     <string name="uninstall">Desinstalar</string>
     <string name="redownload">Volver a descargar</string>
+    <string name="security_context">Asegúrate de haber descargado la app desde vancedapp.com, el grupo de Discord de Vanced, o el GitHub de Vanced</string>
     <string name="version">Versión</string>
     <string name="welcome">Bienvenido</string>
     <!-- Install Page -->

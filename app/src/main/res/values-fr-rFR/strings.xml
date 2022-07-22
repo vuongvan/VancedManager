@@ -12,6 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">À propos</string>
     <string name="title_guide">Guide</string>
+    <string name="title_home">Gestionnaire</string>
     <string name="title_logs">Journaux</string>
     <string name="title_settings">Paramètres</string>
     <string name="update_manager">Gestionnaire de Mise à Jour</string>
@@ -37,6 +38,7 @@
     <string name="no_microg">Installez d\'abord Vanced microG</string>
     <string name="root_not_granted">Accès root non autorisé</string>
     <string name="social_media">Réseaux sociaux</string>
+    <string name="support_us">Soutenez-nous</string>
     <string name="unavailable">Indisponible</string>
     <string name="version_installed">Version installée:</string>
     <!-- Settings -->
@@ -45,6 +47,8 @@
     <string name="category_behaviour">Comportement</string>
     <string name="clear_files">Effacer les fichiers téléchargés</string>
     <string name="cleared_files">Données effacées avec succès</string>
+    <string name="firebase_summary">Cela nous permet de recueillir des informations sur les performances de l\'application et les journaux de bord</string>
+    <string name="firebase_title">Analyses Firebase</string>
     <string name="language_title">Langue</string>
     <string name="link_custom_tabs">Les liens s\'ouvriront dans les onglets personnalisés Chrome</string>
     <string name="link_title">Utiliser les onglets personnalisés Chrome</string>
@@ -82,6 +86,7 @@
     <string name="uninstall_app_text">Êtes-vous sûr de vouloir désinstaller %1$s ?</string>
     <string name="uninstall">Désinstaller</string>
     <string name="redownload">Re-télécharger</string>
+    <string name="security_context">Assurez-vous d\'avoir téléchargé l\'application depuis vancedapp.com, le serveur Discord Vanced ou sur le Github Vanced</string>
     <string name="version">Version</string>
     <string name="welcome">Bienvenue</string>
     <!-- Install Page -->

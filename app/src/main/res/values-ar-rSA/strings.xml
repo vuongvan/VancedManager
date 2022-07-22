@@ -12,6 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">حول</string>
     <string name="title_guide">دليل الاستخدام</string>
+    <string name="title_home">المدير</string>
     <string name="title_logs">السجلات</string>
     <string name="title_settings">الإعدادات</string>
     <string name="update_manager">تحديث المدير</string>
@@ -37,6 +38,7 @@
     <string name="no_microg">قم بتثبيت Vanced microG أولاً</string>
     <string name="root_not_granted">لم يتم منح صلاحيات الروت</string>
     <string name="social_media">وسائل التواصل الإجتماعي</string>
+    <string name="support_us">ادعمنا</string>
     <string name="unavailable">غير متاح</string>
     <string name="version_installed">مثبت:</string>
     <!-- Settings -->
@@ -45,6 +47,8 @@
     <string name="category_behaviour">السلوك</string>
     <string name="clear_files">مسح الملفات التي تم تنزيلها</string>
     <string name="cleared_files">تم مسح الملفات بنجاح</string>
+    <string name="firebase_summary">هذا يتيح لنا جمع المعلومات عن أداء التطبيق وسجلات الأعطال</string>
+    <string name="firebase_title">تحليلات Firebase</string>
     <string name="language_title">اللغة</string>
     <string name="link_custom_tabs">سيتم فتح الروابط في علامات تبويب مخصصة لمتصفح كروم</string>
     <string name="link_title">استخدم علامات تبويب مخصصة لمتصفح كروم</string>
@@ -82,6 +86,7 @@
     <string name="uninstall_app_text">هل أنت متأكد أنك تريد إلغاء تثبيت %1$s ؟</string>
     <string name="uninstall">إلغاء التثبيت</string>
     <string name="redownload">إعادة التنزيل</string>
+    <string name="security_context">تأكد من أنك قمت بتنزيل التطبيق من موقع vancedapp.com، أو خادم الديسكورد لڤانسد أو Vanced GitHub</string>
     <string name="version">الإصدار</string>
     <string name="welcome">مرحباً بك</string>
     <!-- Install Page -->

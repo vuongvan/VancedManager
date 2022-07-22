@@ -10,6 +10,9 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.FragmentActivity
 import androidx.preference.PreferenceManager.getDefaultSharedPreferences
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.firebase.analytics.FirebaseAnalytics
+import com.google.firebase.crashlytics.FirebaseCrashlytics
+import com.google.firebase.perf.FirebasePerformance
 import com.vanced.manager.R
 import com.vanced.manager.adapter.GetNotifAdapter
 import com.vanced.manager.core.ui.base.BindingFragment
@@ -50,6 +53,7 @@ class SettingsFragment : BindingFragment<FragmentSettingsBinding>() {
         with(binding) {
             variant = prefs.getString("vanced_variant", "nonroot").toString()
             bindRecycler()
+            bindFirebase()
             bindManagerVariant()
             bindServiceDTimer()
             bindClearFiles()
@@ -64,6 +68,14 @@ class SettingsFragment : BindingFragment<FragmentSettingsBinding>() {
         notificationsRecycler.apply {
             layoutManager = LinearLayoutManager(parentActivity)
             adapter = GetNotifAdapter(parentActivity)
+        }
+    }
+
+    private fun FragmentSettingsBinding.bindFirebase() {
+        firebase.setOnCheckedListener { _, isChecked ->
+            FirebaseCrashlytics.getInstance().setCrashlyticsCollectionEnabled(isChecked)
+            FirebasePerformance.getInstance().isPerformanceCollectionEnabled = isChecked
+            FirebaseAnalytics.getInstance(parentActivity).setAnalyticsCollectionEnabled(isChecked)
         }
     }
 

@@ -15,9 +15,24 @@ class LinkAdapter(
     private val viewModel: HomeViewModel
 ) : RecyclerView.Adapter<LinkAdapter.LinkViewHolder>() {
 
+    private val instagram = LinkModel(
+        AppCompatResources.getDrawable(context, R.drawable.ic_instagram),
+        INSTAGRAM
+    )
+
+    private val youtube = LinkModel(
+        AppCompatResources.getDrawable(context, R.drawable.ic_youtube),
+        YOUTUBE
+    )
+
     private val github = LinkModel(
         AppCompatResources.getDrawable(context, R.drawable.ic_github),
         GITHUB
+    )
+
+    private val website = LinkModel(
+        AppCompatResources.getDrawable(context, R.drawable.ic_website),
+        WEBSITE
     )
 
     private val telegram = LinkModel(
@@ -25,7 +40,22 @@ class LinkAdapter(
         TELEGRAM
     )
 
-    val links = arrayOf(github, telegram)
+    private val twitter = LinkModel(
+        AppCompatResources.getDrawable(context, R.drawable.ic_twitter),
+        TWITTER
+    )
+
+    private val discord = LinkModel(
+        AppCompatResources.getDrawable(context, R.drawable.ic_discord),
+        DISCORD
+    )
+
+    private val reddit = LinkModel(
+        AppCompatResources.getDrawable(context, R.drawable.ic_reddit),
+        REDDIT
+    )
+
+    val links = arrayOf(instagram, youtube, github, website, telegram, twitter, discord, reddit)
 
     inner class LinkViewHolder(private val binding: ViewSocialLinkBinding) :
         RecyclerView.ViewHolder(binding.root) {
@@ -34,7 +64,7 @@ class LinkAdapter(
 
         fun bind(position: Int) {
             binding.linkBg.setOnClickListener {
-                viewModel.openUrl(links[position].linkUrl)
+                viewModel.openUrl(context, links[position].linkUrl)
             }
         }
     }
@@ -52,8 +82,14 @@ class LinkAdapter(
     override fun getItemCount(): Int = links.size
 
     companion object {
-        const val GITHUB = "https://github.com/inotia00/VancedManager"
-        const val TELEGRAM = "https://t.me/vanced_mod_archive"
+        const val INSTAGRAM = "https://instagram.com/vanced.youtube"
+        const val YOUTUBE = "https://youtube.com/c/YouTubeVanced"
+        const val GITHUB = "https://github.com/YTVanced/VancedManager"
+        const val WEBSITE = "https://vancedapp.com"
+        const val TELEGRAM = "https://t.me/joinchat/AAAAAEHf-pi4jH1SDlAL4w"
+        const val TWITTER = "https://twitter.com/YTVanced"
+        const val DISCORD = "https://discord.gg/WCGNdRruzb"
+        const val REDDIT = "https://www.reddit.com/r/Vanced/"
     }
 
 }

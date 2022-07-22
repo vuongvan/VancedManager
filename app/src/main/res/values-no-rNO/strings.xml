@@ -12,6 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">Om</string>
     <string name="title_guide">Guide</string>
+    <string name="title_home">Leder</string>
     <string name="title_logs">Logger</string>
     <string name="title_settings">Innstillinger</string>
     <string name="update_manager">Oppdater administrator</string>
@@ -37,6 +38,7 @@
     <string name="no_microg">Installer Vanced microG først</string>
     <string name="root_not_granted">Root-tilgang ikke godkjent</string>
     <string name="social_media">Sosiale Medier</string>
+    <string name="support_us">Støtt oss</string>
     <string name="unavailable">Utilgjengelig</string>
     <string name="version_installed">Installert:</string>
     <!-- Settings -->
@@ -45,6 +47,8 @@
     <string name="category_behaviour">Oppførsel</string>
     <string name="clear_files">Fjern nedlastede filer</string>
     <string name="cleared_files">Valgte filer er fjernet</string>
+    <string name="firebase_summary">Dette lar oss samle informasjon om app-ytelse og krasj-logger</string>
+    <string name="firebase_title">Firebase analyser</string>
     <string name="language_title">Språk</string>
     <string name="link_custom_tabs">Lenker vil åpne i Chrome Custom Tabs</string>
     <string name="link_title">Bruk Chrome Custom Tabs</string>
@@ -82,6 +86,7 @@
     <string name="uninstall_app_text">Er du sikker på at du vil avinstallere %1$s?</string>
     <string name="uninstall">Avinstaller</string>
     <string name="redownload">Last ned på nytt</string>
+    <string name="security_context">Sørg for at du lastet ned appen fra vancedapp.com, Vanced Discord server, eller Vanced GitHub</string>
     <string name="version">Versjon</string>
     <string name="welcome">Velkommen</string>
     <!-- Install Page -->

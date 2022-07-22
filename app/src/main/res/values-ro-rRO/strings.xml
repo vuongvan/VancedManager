@@ -12,6 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">Despre</string>
     <string name="title_guide">Ghid</string>
+    <string name="title_home">Manager</string>
     <string name="title_logs">Jurnale</string>
     <string name="title_settings">Configurări</string>
     <string name="update_manager">Actualizați Manager</string>
@@ -37,6 +38,7 @@
     <string name="no_microg">Instalați Vanced microG mai întâi</string>
     <string name="root_not_granted">Accesul root nu este permis</string>
     <string name="social_media">Rețele sociale</string>
+    <string name="support_us">Ajutați-ne</string>
     <string name="unavailable">Indisponibil</string>
     <string name="version_installed">Instalat:</string>
     <!-- Settings -->
@@ -45,6 +47,8 @@
     <string name="category_behaviour">Comportament</string>
     <string name="clear_files">Ştergeţi fişierele descărcate</string>
     <string name="cleared_files">Fişiere şterse cu succes</string>
+    <string name="firebase_summary">Acest lucru ne permite să colectăm informații despre performanța aplicației și jurnale de eroare</string>
+    <string name="firebase_title">Statistici Firebase</string>
     <string name="language_title">Limbă</string>
     <string name="link_custom_tabs">Link-uri se vor deschide în filele personalizate Chrome</string>
     <string name="link_title">Utilizează file personalizate Chrome</string>
@@ -82,6 +86,7 @@
     <string name="uninstall_app_text">Sunteţi sigur că doriţi să dezinstalaţi %1$s?</string>
     <string name="uninstall">Dezinstalează</string>
     <string name="redownload">Redescărcare</string>
+    <string name="security_context">Asigurați-vă că ați descărcat aplicația de pe vancedapp.com, de pe serverul Discord Vanced sau de pe GitHub Vanced</string>
     <string name="version">Versiune</string>
     <string name="welcome">Bun venit</string>
     <!-- Install Page -->

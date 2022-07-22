@@ -12,6 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">Giới thiệu</string>
     <string name="title_guide">Hướng dẫn</string>
+    <string name="title_home">Manager</string>
     <string name="title_logs">Nhật ký</string>
     <string name="title_settings">Cài đặt</string>
     <string name="update_manager">Cập nhật Manager</string>
@@ -37,6 +38,7 @@
     <string name="no_microg">Bạn phải cài Vanced microG trước</string>
     <string name="root_not_granted">Quyền root không được cấp</string>
     <string name="social_media">Mạng xã hội</string>
+    <string name="support_us">Hỗ trợ chúng tôi</string>
     <string name="unavailable">Chưa cài</string>
     <string name="version_installed">Đã cài đặt:</string>
     <!-- Settings -->
@@ -45,6 +47,8 @@
     <string name="category_behaviour">Ứng dụng</string>
     <string name="clear_files">Xóa các file đã tải về</string>
     <string name="cleared_files">Xóa các file thành công</string>
+    <string name="firebase_summary">Cho phép chúng tôi thu thập thông tin về hiệu suất và sự cố của ứng dụng</string>
+    <string name="firebase_title">Firebase Analytics</string>
     <string name="language_title">Ngôn ngữ</string>
     <string name="link_custom_tabs">Các liên kết sẽ mở trong Chrome Custom Tabs</string>
     <string name="link_title">Sử dụng Chrome Custom Tabs</string>
@@ -82,6 +86,7 @@
     <string name="uninstall_app_text">Bạn có chắc chắn muốn gỡ cài đặt %1$s không?</string>
     <string name="uninstall">Gỡ cài đặt</string>
     <string name="redownload">Tải lại</string>
+    <string name="security_context">Chắc chắn rằng bạn đã tải ứng dụng này từ vancedapp.com, server Discord của Vanced hoặc GitHub của Vanced</string>
     <string name="version">Phiên bản</string>
     <string name="welcome">Chào mừng</string>
     <!-- Install Page -->

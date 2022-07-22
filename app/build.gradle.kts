@@ -3,6 +3,8 @@ plugins {
     kotlin("android")
     kotlin("kapt")
     id("com.google.gms.google-services")
+    id("com.google.firebase.crashlytics")
+    id("com.google.firebase.firebase-perf")
     id("androidx.navigation.safeargs.kotlin")
     id("kotlin-android")
 }
@@ -14,8 +16,8 @@ android {
         applicationId = "com.vanced.manager"
         minSdk = 21
         targetSdk = 31
-        versionCode = 220714
-        versionName = "2.6.3 (Echo)"
+        versionCode = 262
+        versionName = "2.6.2 (Crimson)"
 
         vectorDrawables {
             useSupportLibrary = true
@@ -24,9 +26,9 @@ android {
         buildConfigField("String[]", "MANAGER_LANGUAGES", "{$languages}")
     }
 
-    /*lint {
+    lint {
         disable("MissingTranslation", "ExtraTranslation")
-    }*/
+    }
 
     applicationVariants.all {
         resValue("string", "versionName", versionName)
@@ -34,8 +36,7 @@ android {
 
     buildTypes {
         getByName("release") {
-        	// If you change "isMinifyEnabled = false" to "isMinifyEnabled = true," the app size will be greatly reduced, but for some reason, if you build with "release", the VirusTotal test results shows that Trojan is present.
-            isMinifyEnabled = false
+            isMinifyEnabled = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
@@ -129,4 +130,10 @@ dependencies {
 
     // Layout
     implementation("com.google.android.flexbox:flexbox:3.0.0")
+
+    // Firebase
+    implementation("com.google.firebase:firebase-analytics-ktx:19.0.2")
+    implementation("com.google.firebase:firebase-crashlytics:18.2.3")
+    implementation("com.google.firebase:firebase-messaging:22.0.0")
+    implementation("com.google.firebase:firebase-perf:20.0.3")
 }
