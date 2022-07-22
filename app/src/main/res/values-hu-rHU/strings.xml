@@ -12,7 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">Rólunk</string>
     <string name="title_guide">Útmutató</string>
-    <string name="title_home">Manager</string>
+
     <string name="title_logs">Naplók</string>
     <string name="title_settings">Beállítások</string>
     <string name="update_manager">Manager frissitése</string>
@@ -38,7 +38,7 @@
     <string name="no_microg">Először telepítse a Vanced microG-t</string>
     <string name="root_not_granted">A root hozzáférés nincs megadva</string>
     <string name="social_media">Közösségi média</string>
-    <string name="support_us">Támogasson bennünket</string>
+
     <string name="unavailable">Nem elérhető</string>
     <string name="version_installed">Telepítve:</string>
     <!-- Settings -->
@@ -87,7 +87,7 @@ Akarod telepíteni?</string>
     <string name="uninstall_app_text">Biztos el akarod távolítani ezt: %1$s ?</string>
     <string name="uninstall">Eltávolítás</string>
     <string name="redownload">Újra letölt</string>
-    <string name="security_context">Arra kérünk, győződjön meg róla, hogy ezt az alkalmazást a vancedapp.com oldalról, a Vanced Discord szerveréről vagy a Vanced GitHub-ról töltötte le</string>
+
     <string name="version">Verzió</string>
     <string name="welcome">Üdvözöljük</string>
     <!-- Install Page -->

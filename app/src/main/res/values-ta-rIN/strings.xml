@@ -12,7 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">பற்றி</string>
     <string name="title_guide">வழிகாட்டி</string>
-    <string name="title_home">மேலாளர்</string>
+
     <string name="title_logs">பதிவுகள்</string>
     <string name="title_settings">அமைப்புகள்</string>
     <string name="update_manager">புதுப்பிப்பு மேலாளர்</string>
@@ -38,7 +38,7 @@
     <string name="no_microg">முதலில் Vanced Microg ஐ நிறுவவும்</string>
     <string name="root_not_granted">ரூட் அக்சஸ் வழங்கப்படவில்லை</string>
     <string name="social_media">சமூக ஊடகம்</string>
-    <string name="support_us">எங்களை ஆதரியுங்கள்</string>
+
     <string name="unavailable">கிடைக்கவில்லை</string>
     <string name="version_installed">நிறுவப்பட்டது:</string>
     <!-- Settings -->
@@ -86,7 +86,7 @@
     <string name="uninstall_app_text">%1$s ஐ நிறுவல் நீக்க விரும்புகிறீர்களா?</string>
     <string name="uninstall">நிறுவல் நீக்கு</string>
     <string name="redownload">மீண்டும் பதிவிறக்கு</string>
-    <string name="security_context">பயன்பாட்டை vancedapp.com, Vanced Discord சேவையகம் அல்லது Vanced GitHub இலிருந்து பதிவிறக்கம் செய்துள்ளீர்கள் என்பதை உறுதிப்படுத்திக் கொள்ளுங்கள்</string>
+
     <string name="version">பதிப்பு</string>
     <string name="welcome">வரவேற்பு</string>
     <!-- Install Page -->

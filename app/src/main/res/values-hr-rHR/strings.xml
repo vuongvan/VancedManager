@@ -12,7 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">O autorima</string>
     <string name="title_guide">Vodič</string>
-    <string name="title_home">Upravitelj</string>
+
     <string name="title_logs">Zapisi</string>
     <string name="title_settings">Postavke</string>
     <string name="update_manager">Ažuriranje upravitelja</string>
@@ -38,7 +38,7 @@
     <string name="no_microg">Prvo instaliraj Vanced MicroG</string>
     <string name="root_not_granted">Root pristup nije dopušten</string>
     <string name="social_media">Društvene mreže</string>
-    <string name="support_us">Podržite nas</string>
+
     <string name="unavailable">Nedostupno</string>
     <string name="version_installed">Instalirano:</string>
     <!-- Settings -->
@@ -86,7 +86,7 @@
     <string name="uninstall_app_text">Sigurno želite deinstalirati %1$s ?</string>
     <string name="uninstall">Deinstaliraj</string>
     <string name="redownload">Ponovno preuzmi</string>
-    <string name="security_context">Aplikaciju obavezno preuzmite s vancedapp.com, Vanced Discord poslužitelja ili Vanced GitHuba</string>
+
     <string name="version">Inačica</string>
     <string name="welcome">Dobrodošli</string>
     <!-- Install Page -->

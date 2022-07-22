@@ -12,7 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">Om</string>
     <string name="title_guide">Guide</string>
-    <string name="title_home">Hanterare</string>
+
     <string name="title_logs">Loggar</string>
     <string name="title_settings">Inställningar</string>
     <string name="update_manager">Uppdatera hanteraren</string>
@@ -38,7 +38,7 @@
     <string name="no_microg">Installera Vanced microG först</string>
     <string name="root_not_granted">Root-åtkomst inte beviljat</string>
     <string name="social_media">Sociala medier</string>
-    <string name="support_us">Stöd oss</string>
+
     <string name="unavailable">Ej tillgänglig</string>
     <string name="version_installed">Installerad:</string>
     <!-- Settings -->
@@ -86,7 +86,7 @@
     <string name="uninstall_app_text">Are you sure you want to uninstall %1$s ?</string>
     <string name="uninstall">Uninstall</string>
     <string name="redownload">Ladda ner igen</string>
-    <string name="security_context">Se till att du laddade ner appen från vancedapp.com, den Vanced Discord-servern eller den Vanced GitHub</string>
+
     <string name="version">Version</string>
     <string name="welcome">Välkommen</string>
     <!-- Install Page -->

@@ -12,7 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">Derbar</string>
     <string name="title_guide">Rêzan</string>
-    <string name="title_home">Rêvebirin</string>
+
     <string name="title_logs">Logs</string>
     <string name="title_settings">Sazkarî</string>
     <string name="update_manager">Rêveberê hildemîne</string>
@@ -38,7 +38,7 @@
     <string name="no_microg">Install Vanced microG first</string>
     <string name="root_not_granted">Rê li gihana Root nehate dayîn</string>
     <string name="social_media">Social Media</string>
-    <string name="support_us">Piştgiriya me bike</string>
+
     <string name="unavailable">Berdest nîne</string>
     <string name="version_installed">Saz bike:</string>
     <!-- Settings -->
@@ -84,7 +84,7 @@
     <string name="miui_one_title">MIUI Optimizations are enabled!</string>
     <string name="please_be_patient">Please do NOT exit the app during this process!</string>
     <string name="redownload">Ji nû ve daxîne</string>
-    <string name="security_context">Piştrast bin ku we sepan ji vancedapp.com\'ê, ji servera Vanced Discord\'ê an Vanced GitHub\'ê daxistiye</string>
+
     <string name="version">Guherto</string>
     <string name="welcome">Bi xêr hatî</string>
     <!-- Install Page -->

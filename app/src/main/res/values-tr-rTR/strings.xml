@@ -12,7 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">Hakkında</string>
     <string name="title_guide">Rehber</string>
-    <string name="title_home">Manager</string>
+
     <string name="title_logs">Geçmiş kayıtlar</string>
     <string name="title_settings">Ayarlar</string>
     <string name="update_manager">Manager\'ı güncelle</string>
@@ -38,7 +38,7 @@
     <string name="no_microg">Vanced microG\'yi kurmalısın</string>
     <string name="root_not_granted">Root erişimi verilmedi</string>
     <string name="social_media">Sosyal Medya</string>
-    <string name="support_us">Tıkla, destek ol</string>
+
     <string name="unavailable">Yüklenmemiş</string>
     <string name="version_installed">Yüklü sürüm:</string>
     <!-- Settings -->
@@ -86,7 +86,7 @@
     <string name="uninstall_app_text">%1$s uygulamasını kaldırmak istediğinden emin misin?</string>
     <string name="uninstall">Kaldır</string>
     <string name="redownload">Tekrar İndir</string>
-    <string name="security_context">Uygulamayı vancedapp.com, Vanced Discord sunucusu, veya Vanced GitHub\'dan indirdiğinizden emin olun</string>
+
     <string name="version">Sürüm</string>
     <string name="welcome">Hoş Geldiniz</string>
     <!-- Install Page -->

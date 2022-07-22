@@ -12,7 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">このアプリについて</string>
     <string name="title_guide">ガイド</string>
-    <string name="title_home">Manager</string>
+
     <string name="title_logs">ログ</string>
     <string name="title_settings">設定</string>
     <string name="update_manager">Manager を更新</string>
@@ -38,7 +38,7 @@
     <string name="no_microg">はじめに Vanced microG をインストールしてください</string>
     <string name="root_not_granted">Root アクセスは許可されていません</string>
     <string name="social_media">ソーシャルメディア</string>
-    <string name="support_us">サポート</string>
+
     <string name="unavailable">利用不可</string>
     <string name="version_installed">インストール済み:</string>
     <!-- Settings -->
@@ -86,7 +86,7 @@
     <string name="uninstall_app_text">%1$s をアンインストールしてよろしいですか？</string>
     <string name="uninstall">アンインストール</string>
     <string name="redownload">再ダウンロード</string>
-    <string name="security_context">Vancedapp.com、Vanced の Discord サーバーまたは GitHub からアプリをダウンロードしたことを確認してください</string>
+
     <string name="version">バージョン</string>
     <string name="welcome">ようこそ</string>
     <!-- Install Page -->

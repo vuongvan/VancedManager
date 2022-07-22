@@ -12,7 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">O aplikaci</string>
     <string name="title_guide">Průvodce</string>
-    <string name="title_home">Manager</string>
+
     <string name="title_logs">Záznamy</string>
     <string name="title_settings">Nastavení</string>
     <string name="update_manager">Aktualizovat Manager</string>
@@ -38,7 +38,7 @@
     <string name="no_microg">Nejprve nainstalujte Vanced microG</string>
     <string name="root_not_granted">Root přístup nebyl udělen</string>
     <string name="social_media">Sociální sítě</string>
-    <string name="support_us">Podpořte nás</string>
+
     <string name="unavailable">Není k dispozici</string>
     <string name="version_installed">Nainstalováno:</string>
     <!-- Settings -->
@@ -86,7 +86,7 @@
     <string name="uninstall_app_text">Opravdu si přejete odinstalovat aplikaci %1$s?</string>
     <string name="uninstall">Odinstalovat</string>
     <string name="redownload">Stáhnout znovu</string>
-    <string name="security_context">Ujistěte se, že jste si aplikaci stáhli z našeho webu vancedapp.com, z našeho Vanced Discord serveru nebo z našeho GitHubu</string>
+
     <string name="version">Verze</string>
     <string name="welcome">Vítejte</string>
     <!-- Install Page -->

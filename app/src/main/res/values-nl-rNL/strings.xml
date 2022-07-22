@@ -12,7 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">Over</string>
     <string name="title_guide">Gids</string>
-    <string name="title_home">Manager</string>
+
     <string name="title_logs">Logs</string>
     <string name="title_settings">Instellingen</string>
     <string name="update_manager">Manager bijwerken</string>
@@ -38,7 +38,7 @@
     <string name="no_microg">Installeer eerst Vanced microG</string>
     <string name="root_not_granted">Root machtiging niet toegestaan</string>
     <string name="social_media">Sociale media</string>
-    <string name="support_us">Steun ons</string>
+
     <string name="unavailable">Niet beschikbaar</string>
     <string name="version_installed">Geïnstalleerd:</string>
     <!-- Settings -->
@@ -86,7 +86,7 @@
     <string name="uninstall_app_text">Weet je zeker dat je %1$s wil verwijderen?</string>
     <string name="uninstall">Verwijderen</string>
     <string name="redownload">Opnieuw downloaden</string>
-    <string name="security_context">Zorg ervoor dat je de app hebt gedownload van vancedapp.com, de Vanced Discord-server of Vanced GitHub</string>
+
     <string name="version">Versie</string>
     <string name="welcome">Welkom</string>
     <!-- Install Page -->

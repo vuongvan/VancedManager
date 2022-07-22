@@ -12,7 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">अॅप बद्दल माहिती</string>
     <string name="title_guide">Guide</string>
-    <string name="title_home">मॅनेजर</string>
+
     <string name="title_logs">Logs</string>
     <string name="title_settings">सेटिंग</string>
     <string name="update_manager">मॅनेजर ला अपडेट करा</string>
@@ -38,7 +38,7 @@
     <string name="no_microg">Install Vanced microG first</string>
     <string name="root_not_granted">Root access not granted</string>
     <string name="social_media">Social Media</string>
-    <string name="support_us">Support us</string>
+
     <string name="unavailable">Unavailable</string>
     <string name="version_installed">Installed:</string>
     <!-- Settings -->
@@ -86,7 +86,7 @@
     <string name="uninstall_app_text">Are you sure you want to uninstall %1$s ?</string>
     <string name="uninstall">Uninstall</string>
     <string name="redownload">Redownload</string>
-    <string name="security_context">Make sure that you downloaded the app from vancedapp.com, the Vanced Discord server, or the Vanced GitHub</string>
+
     <string name="version">Version</string>
     <string name="welcome">Welcome</string>
     <!-- Install Page -->

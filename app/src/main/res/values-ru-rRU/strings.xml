@@ -12,7 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">О нас</string>
     <string name="title_guide">Руководство</string>
-    <string name="title_home">Менеджер</string>
+
     <string name="title_logs">Логи</string>
     <string name="title_settings">Настройки</string>
     <string name="update_manager">Обновить Менеджер</string>
@@ -38,7 +38,7 @@
     <string name="no_microg">Сначала установите Vanced microG</string>
     <string name="root_not_granted">Рут-доступ не предоставлен</string>
     <string name="social_media">Социальные сети</string>
-    <string name="support_us">Поддержите нас</string>
+
     <string name="unavailable">Недоступно</string>
     <string name="version_installed">Установлена:</string>
     <!-- Settings -->
@@ -86,7 +86,7 @@
     <string name="uninstall_app_text">Вы уверены, что вы хотите удалить %1$s?</string>
     <string name="uninstall">Удалить</string>
     <string name="redownload">Скачать заново</string>
-    <string name="security_context">Пожалуйста, убедитесь, что вы скачали это приложение с vancedapp.com, сервера Vanced в Discord или с официального GitHub</string>
+
     <string name="version">Версия</string>
     <string name="welcome">Добро пожаловать</string>
     <!-- Install Page -->

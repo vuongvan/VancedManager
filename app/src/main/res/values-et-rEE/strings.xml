@@ -12,7 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">Teave</string>
     <string name="title_guide">Juhend</string>
-    <string name="title_home">Haldur</string>
+
     <string name="title_logs">Logid</string>
     <string name="title_settings">Seaded</string>
     <string name="update_manager">Uuenduste Haldur</string>
@@ -38,7 +38,7 @@
     <string name="no_microg">Installi Vanced MicroG esimesena</string>
     <string name="root_not_granted">Administraatoriõigusi ei tagatud</string>
     <string name="social_media">Sotsiaalmeedia</string>
-    <string name="support_us">Toetage meid</string>
+
     <string name="unavailable">Pole saadaval</string>
     <string name="version_installed">Installitud:</string>
     <!-- Settings -->
@@ -86,7 +86,7 @@
     <string name="uninstall_app_text">Kas soovite kindlasti desinstallida %1$s?</string>
     <string name="uninstall">Desinstalli</string>
     <string name="redownload">Lae uuesti alla</string>
-    <string name="security_context">Veenduge, et laadisite rakenduse alla vancedapp.com, Vanced Discordi serverist või Vanced GitHubist</string>
+
     <string name="version">Versioon</string>
     <string name="welcome">Tere tulemast</string>
     <!-- Install Page -->

@@ -12,7 +12,7 @@
     <!-- Main Activity -->
     <string name="title_about">O nas</string>
     <string name="title_guide">Przewodnik</string>
-    <string name="title_home">Menedżer</string>
+
     <string name="title_logs">Dzienniki</string>
     <string name="title_settings">Ustawienia</string>
     <string name="update_manager">Zaktualizuj Menedżera</string>
@@ -38,7 +38,7 @@
     <string name="no_microg">Najpierw zainstaluj Vanced microG</string>
     <string name="root_not_granted">Root nie został przyznany</string>
     <string name="social_media">Media Społecznościowe</string>
-    <string name="support_us">Wesprzyj nas</string>
+
     <string name="unavailable">Niedostępne</string>
     <string name="version_installed">Zainstalowano:</string>
     <!-- Settings -->
@@ -86,7 +86,7 @@
     <string name="uninstall_app_text">Czy na pewno chcesz odinstalować %1$s?</string>
     <string name="uninstall">Odinstaluj</string>
     <string name="redownload">Pobierz ponownie</string>
-    <string name="security_context">Upewnij się, że pobrałeś aplikację z vancedapp.com, serwera Vanced Discord lub Vanced GitHub</string>
+
     <string name="version">Wersja</string>
     <string name="welcome">Witaj</string>
     <!-- Install Page -->
