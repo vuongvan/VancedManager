@@ -11,10 +11,10 @@ object VancedDownloader {
     private const val fileName = "youtube.apk"
     private const val folderName = "youtube"
 
-    fun downloadMicrog(context: Context) {
-        val url = microg.value?.string("url") ?: ""
+    fun downloadVanced(context: Context) {
+        val url = vanced.value?.string("url") ?: ""
         download(url, "$baseInstallUrl/", folderName, fileName, context, onDownloadComplete = {
-            startMicrogInstall(context)
+            startVancedInstall(context)
         }, onError = {
             downloadingFile.postValue(context.getString(R.string.error_downloading, fileName))
         })
