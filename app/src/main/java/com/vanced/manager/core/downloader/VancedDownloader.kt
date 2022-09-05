@@ -6,7 +6,7 @@ import com.vanced.manager.utils.*
 import com.vanced.manager.utils.DownloadHelper.download
 import com.vanced.manager.utils.PackageHelper.install
 
-object MicrogDownloader {
+object VancedDownloader {
 
     private const val fileName = "youtube.apk"
     private const val folderName = "youtube"
@@ -21,7 +21,7 @@ object MicrogDownloader {
 
     }
 
-    fun startMicrogInstall(context: Context) {
+    fun startVancedInstall(context: Context) {
         installing.postValue(true)
         postReset()
         install("${context.getExternalFilesDir(folderName)}/$fileName", context)
