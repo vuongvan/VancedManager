@@ -57,10 +57,7 @@ class InstallationFilesDetectedDialog :
             installationDetectedInstall.setOnClickListener {
                 dismiss()
                 when (app) {
-                    getString(R.string.vanced) -> startVancedInstall(
-                        requireContext(),
-                        context?.defPrefs?.managerVariant
-                    )
+                    getString(R.string.vanced) -> startVancedInstall(requireContext())
                     getString(R.string.music) -> startMusicInstall(requireContext())
                     getString(R.string.microg) -> startMicrogInstall(requireContext())
                 }
