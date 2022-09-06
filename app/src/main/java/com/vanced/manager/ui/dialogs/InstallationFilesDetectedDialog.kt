@@ -49,7 +49,6 @@ class InstallationFilesDetectedDialog :
             installationDetectedRedownload.setOnClickListener {
                 dismiss()
                 when (app) {
-                    getString(R.string.vanced) -> showDialog(VancedPreferencesDialog())
                     getString(R.string.music) -> showDialog(MusicPreferencesDialog())
                     else -> showDialog(AppDownloadDialog.newInstance(app))
                 }
