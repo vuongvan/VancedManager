@@ -80,7 +80,7 @@ suspend fun loadJson(context: Context) = withContext(Dispatchers.IO) {
     }
 
     try {
-        val latestbaseUrl = "$baseInstallUrl/latest.json"
+        val latestbaseUrl = "$baseInstallUrl/yt-update.json"
         val connection = URL(latestbaseUrl).openConnection() as HttpURLConnection
         connection.apply {
             connectTimeout = 5000
@@ -89,13 +89,13 @@ suspend fun loadJson(context: Context) = withContext(Dispatchers.IO) {
         }
         if (connection.responseCode != 200) {
             log(TAG, latestbaseUrl + ": " + connection.responseCode.toString())
-            baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/revanced-magisk-module/update"
+            baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update"
         }
     } catch (e: IOException) {
-        baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/revanced-magisk-module/update"
+        baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update"
     } catch (e: SocketTimeoutException) {
         log(TAG, "connection timed out")
-        baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/revanced-magisk-module/update"
+        baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update"
     }
 
     log(TAG, "Fetching using URL: $baseInstallUrl")
