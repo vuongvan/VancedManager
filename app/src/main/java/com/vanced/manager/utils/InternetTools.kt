@@ -106,7 +106,7 @@ suspend fun loadJson(context: Context) = withContext(Dispatchers.IO) {
     val second = calendar.get(Calendar.SECOND)
     val fetchTime = "fetchTime=$hour$minute$second"
 
-    val latest = getJson("$baseInstallUrl/latest.json?$fetchTime")
+    val latest = getJson("$baseInstallUrl/yt-update.json?$fetchTime")
     val versions = getJson("$baseInstallUrl/versions.json?$fetchTime")
     isMicrogBroken = latest?.boolean("is_microg_broken") ?: false
     vanced.postValue(latest?.obj("vanced"))
