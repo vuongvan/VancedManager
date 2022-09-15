@@ -144,4 +144,4 @@ fun checkSHA256(sha256: String, updateFile: File): Boolean {
     }
 }
 
-const val baseUrl = "https://raw.githubusercontent.com/vuongvan/revanced-magisk-module/update"
+const val baseUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update"
