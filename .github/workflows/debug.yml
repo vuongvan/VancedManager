@@ -55,12 +55,6 @@ jobs:
           name: 'Manager'
           path: ${{steps.sign_app.outputs.signedReleaseFile}}
 
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          submodules: true
-
       - name: Switch to update branch
         run: git checkout -f update || git switch --discard-changes --orphan update
 
@@ -71,5 +65,3 @@ jobs:
           skip_checkout: true
           file_pattern: app/build/outputs/apk/debug/*signed.apk 
           commit_message: Update Apk
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
