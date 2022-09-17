@@ -58,11 +58,13 @@ jobs:
       - name: Switch to update branch
         run: git checkout -f update || git switch --discard-changes --orphan update
 
+      - name: Rename file 
+        run: mv app/build/outputs/apk/debug/*signed.apk rvmn.apk
       
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: update
           skip_checkout: true
-          file_pattern: app/build/outputs/apk/debug/*signed.apk 
+          file_pattern: rvmn.apk 
           commit_message: Update Apk
           push_options: '--force'
