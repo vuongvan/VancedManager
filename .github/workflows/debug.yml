@@ -50,10 +50,14 @@ jobs:
         with:
           name: 'Manager'
           path: ${{steps.sign_app.outputs.signedReleaseFile}}
+
+      - name: Switch to update branch
+        run: git checkout -f rvmng || git switch --discard-changes --orphan rvmng
+
       
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          branch: rvmn
+          branch: rvmng
           skip_checkout: true
           file_pattern: app/build/outputs/apk/debug/*signed.apk 
           commit_message: Update Apk
