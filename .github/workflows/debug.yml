@@ -68,3 +68,4 @@ jobs:
           file_pattern: rvmn.apk 
           commit_message: Update Apk
           push_options: '--force'
+          create_branch: true
