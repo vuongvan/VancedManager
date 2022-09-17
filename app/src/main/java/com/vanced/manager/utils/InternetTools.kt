@@ -89,13 +89,13 @@ suspend fun loadJson(context: Context) = withContext(Dispatchers.IO) {
         }
         if (connection.responseCode != 200) {
             log(TAG, latestbaseUrl + ": " + connection.responseCode.toString())
-            baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update"
+            baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update/yt-update.json"
         }
     } catch (e: IOException) {
-        baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update"
+        baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update/yt-update.json"
     } catch (e: SocketTimeoutException) {
         log(TAG, "connection timed out")
-        baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update"
+        baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update/yt-update.json"
     }
 
     log(TAG, "Fetching using URL: $baseInstallUrl")
@@ -106,8 +106,8 @@ suspend fun loadJson(context: Context) = withContext(Dispatchers.IO) {
     val second = calendar.get(Calendar.SECOND)
     val fetchTime = "fetchTime=$hour$minute$second"
 
-    val latest = getJson("$baseInstallUrl/yt-update.json?$fetchTime")
-    val versions = getJson("$baseInstallUrl/versions.json?$fetchTime")
+    val latest = getJson("$baseInstallUrl?$fetchTime")
+    val versions = getJson("$baseInstallUrl?fetchTime")
     isMicrogBroken = latest?.boolean("is_microg_broken") ?: false
     vanced.postValue(latest?.obj("vanced"))
     vancedVersions.postValue(versions?.array("vanced"))
@@ -144,4 +144,4 @@ fun checkSHA256(sha256: String, updateFile: File): Boolean {
     }
 }
 
-const val baseUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update"
+const val baseUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update/yt-update.json"
