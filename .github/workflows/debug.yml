@@ -61,3 +61,5 @@ jobs:
           skip_checkout: true
           file_pattern: app/build/outputs/apk/debug/*signed.apk 
           commit_message: Update Apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
