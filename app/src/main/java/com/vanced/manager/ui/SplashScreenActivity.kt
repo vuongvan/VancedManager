@@ -14,7 +14,7 @@ class SplashScreenActivity : AppCompatActivity() {
         //Preheat the shell
         Shell.getShell {
             if (getDefaultSharedPreferences(this).getBoolean("firstLaunch", true)) {
-                startActivity(Intent(this, WelcomeActivity::class.java))
+                startActivity(Intent(this, MainActivity::class.java))
                 finish()
             } else {
                 startActivity(Intent(this, MainActivity::class.java))
