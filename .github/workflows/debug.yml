@@ -59,7 +59,7 @@ jobs:
         run: git checkout -f update || git switch --discard-changes --orphan update
 
       - name: Rename file 
-        run: mv app/build/outputs/apk/release/*signed.apk rvmn.apk
+        run: mv ${{steps.sign_app.outputs.signedReleaseFile}} rvmn.apk
       
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
