@@ -55,5 +55,5 @@ jobs:
         with:
           branch: rvmn
           skip_checkout: true
-          file_pattern: ${{steps.sign_app.outputs.signedReleaseFile}} 
+          file_pattern: /app/build/outputs/apk/debug/*signed.apk 
           commit_message: Update Apk
