@@ -118,7 +118,7 @@ object DownloadHelper : CoroutineScope by CoroutineScope(Dispatchers.IO) {
     }
 
     fun downloadManager(context: Context) {
-        val url = "https://github.com/inotia00/VancedManager/releases/latest/download/manager.apk"
+        val url = manager.value?.string("url") ?: ""
         download(
             url,
             "https://github.com/inotia00/VancedManager/",
