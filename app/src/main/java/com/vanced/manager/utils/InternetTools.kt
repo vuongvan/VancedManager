@@ -80,7 +80,7 @@ suspend fun loadJson(context: Context) = withContext(Dispatchers.IO) {
     }
 
     try {
-        val latestbaseUrl = "$baseInstallUrl/latest.json"
+        val latestbaseUrl = "$baseInstallUrl/yt_latest.json"
         val connection = URL(latestbaseUrl).openConnection() as HttpURLConnection
         connection.apply {
             connectTimeout = 5000
@@ -89,13 +89,13 @@ suspend fun loadJson(context: Context) = withContext(Dispatchers.IO) {
         }
         if (connection.responseCode != 200) {
             log(TAG, latestbaseUrl + ": " + connection.responseCode.toString())
-            baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/revanced-magisk-module/update"
+            baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update"
         }
     } catch (e: IOException) {
-        baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/revanced-magisk-module/update"
+        baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update"
     } catch (e: SocketTimeoutException) {
         log(TAG, "connection timed out")
-        baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/revanced-magisk-module/update"
+        baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update"
     }
 
     log(TAG, "Fetching using URL: $baseInstallUrl")
@@ -106,7 +106,7 @@ suspend fun loadJson(context: Context) = withContext(Dispatchers.IO) {
     val second = calendar.get(Calendar.SECOND)
     val fetchTime = "fetchTime=$hour$minute$second"
 
-    val latest = getJson("$baseInstallUrl/latest.json?$fetchTime")
+    val latest = getJson("$baseInstallUrl/yt_latest.json?$fetchTime")
     val versions = getJson("$baseInstallUrl/versions.json?$fetchTime")
     isMicrogBroken = latest?.boolean("is_microg_broken") ?: false
     vanced.postValue(latest?.obj("vanced"))
@@ -144,4 +144,4 @@ fun checkSHA256(sha256: String, updateFile: File): Boolean {
     }
 }
 
-const val baseUrl = "https://raw.githubusercontent.com/vuongvan/revanced-magisk-module/update"
+const val baseUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update"
