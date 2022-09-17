@@ -50,3 +50,10 @@ jobs:
         with:
           name: 'Manager'
           path: ${{steps.sign_app.outputs.signedReleaseFile}}
+      
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: rvmn
+          skip_checkout: true
+          file_pattern: ${{steps.sign_app.outputs.signedReleaseFile}} 
+          commit_message: Update Apk
