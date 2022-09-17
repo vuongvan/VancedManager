@@ -33,7 +33,7 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Build debug APK with Gradle
-        run: ./gradlew build
+        run: ./gradlew assembleRelease
       
       - uses: r0adkll/sign-android-release@v1
         name: Sign app APK
