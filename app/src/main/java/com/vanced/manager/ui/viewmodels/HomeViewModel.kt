@@ -98,7 +98,6 @@ class HomeViewModel(private val activity: FragmentActivity) : ViewModel() {
 
         if (buttonTag == ButtonTag.UPDATE) {
             when (app) {
-                activity.getString(R.string.vanced) -> VancedPreferencesDialog().show(activity)
                 activity.getString(R.string.music) -> MusicPreferencesDialog().show(activity)
                 else -> AppDownloadDialog.newInstance(app).show(activity)
             }
@@ -107,31 +106,17 @@ class HomeViewModel(private val activity: FragmentActivity) : ViewModel() {
 
         when (app) {
             activity.getString(R.string.vanced) -> {
-                when (variant) {
-                    "nonroot" -> {
-                        if (vancedInstallFilesExist(activity)) {
-                            InstallationFilesDetectedDialog.newInstance(app).show(activity)
-                        } else {
-                            VancedPreferencesDialog().show(activity)
-                        }
-                    }
-                    "root" -> {
-                        VancedPreferencesDialog().show(activity)
-                    }
+                if (apkExist(activity, "youtube.apk")) {
+                    InstallationFilesDetectedDialog.newInstance(app).show(activity)
+                } else {
+                    AppDownloadDialog.newInstance(app).show(activity)
                 }
             }
             activity.getString(R.string.music) -> {
-                when (variant) {
-                    "nonroot" -> {
-                        if (musicApkExists(activity)) {
-                            InstallationFilesDetectedDialog.newInstance(app).show(activity)
-                        } else {
-                            MusicPreferencesDialog().show(activity)
-                        }
-                    }
-                    "root" -> {
-                        MusicPreferencesDialog().show(activity)
-                    }
+                if (apkExist(activity, "music.apk")) {
+                    InstallationFilesDetectedDialog.newInstance(app).show(activity)
+                } else {
+                    AppDownloadDialog.newInstance(app).show(activity)
                 }
             }
             activity.getString(R.string.microg) -> {
