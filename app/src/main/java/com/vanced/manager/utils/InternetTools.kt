@@ -80,7 +80,7 @@ suspend fun loadJson(context: Context) = withContext(Dispatchers.IO) {
     }
 
     try {
-        val latestbaseUrl = "$baseInstallUrl/yt-update.json"
+        val latestbaseUrl = "$baseInstallUrl"
         val connection = URL(latestbaseUrl).openConnection() as HttpURLConnection
         connection.apply {
             connectTimeout = 5000
