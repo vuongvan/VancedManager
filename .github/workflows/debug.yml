@@ -4,13 +4,16 @@ on:
   push:
     branches:
       - dev
+      - custom
     paths-ignore:
       - '**.md'
   pull_request:
     branches:
       - dev
+      - custom
     paths-ignore:
       - '**.md'
+  workflow_dispatch:
 
 jobs:
   build:
