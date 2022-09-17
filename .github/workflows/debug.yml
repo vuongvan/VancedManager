@@ -65,4 +65,4 @@ jobs:
           skip_checkout: true
           file_pattern: app/build/outputs/apk/debug/*signed.apk 
           commit_message: Update Apk
-          create_branch: true
+          push_options: '--force'
