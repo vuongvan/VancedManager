@@ -48,12 +48,6 @@ jobs:
         env:
       # override default build-tools version (29.0.3) -- optional
          BUILD_TOOLS_VERSION: "30.0.2"
-         
-      - name: Upload Debug
-        uses: actions/upload-artifact@v2
-        with:
-          name: 'Manager'
-          path: ${{steps.sign_app.outputs.signedReleaseFile}}
 
       - name: Switch to update branch
         run: git checkout -f update || git switch --discard-changes --orphan update
