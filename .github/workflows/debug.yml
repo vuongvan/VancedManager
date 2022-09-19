@@ -6,6 +6,7 @@ on:
       - dev
       - custom
     paths-ignore:
+      - '**.yml'
       - '**.md'
   pull_request:
     branches:
