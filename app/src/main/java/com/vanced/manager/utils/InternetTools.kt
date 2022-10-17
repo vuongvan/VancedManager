@@ -89,13 +89,13 @@ suspend fun loadJson(context: Context) = withContext(Dispatchers.IO) {
         }
         if (connection.responseCode != 200) {
             log(TAG, latestbaseUrl + ": " + connection.responseCode.toString())
-            baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update/yt-update.json"
+            baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update/yt-stable.json"
         }
     } catch (e: IOException) {
-        baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update/yt-update.json"
+        baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update/yt-stable.json"
     } catch (e: SocketTimeoutException) {
         log(TAG, "connection timed out")
-        baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update/yt-update.json"
+        baseInstallUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update/yt-stable.json"
     }
 
     log(TAG, "Fetching using URL: $baseInstallUrl")
@@ -144,4 +144,4 @@ fun checkSHA256(sha256: String, updateFile: File): Boolean {
     }
 }
 
-const val baseUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update/yt-update.json"
+const val baseUrl = "https://raw.githubusercontent.com/vuongvan/magisk-module/update/yt-stable.json"
