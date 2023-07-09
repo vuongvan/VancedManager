@@ -3,12 +3,8 @@ package com.vanced.manager.core.downloader
 import android.content.Context
 import com.vanced.manager.R
 import com.vanced.manager.utils.*
-import com.vanced.manager.utils.AppUtils.musicRootPkg
-import com.vanced.manager.utils.AppUtils.validateTheme
 import com.vanced.manager.utils.DownloadHelper.download
-import com.vanced.manager.utils.PackageHelper.downloadStockCheck
 import com.vanced.manager.utils.PackageHelper.install
-import com.vanced.manager.utils.PackageHelper.installMusicRoot
 
 object MusicDownloader {
 
