@@ -8,8 +8,8 @@ import com.vanced.manager.utils.PackageHelper.install
 
 object MusicDownloader {
 
-    private const val fileName = "youtubervx.apk"
-    private const val folderName = "youtubervx"
+    private const val fileName = "music.apk"
+    private const val folderName = "music"
 
     fun downloadMusic(context: Context) {
         val url = music.value?.string("url") ?: ""
