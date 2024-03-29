@@ -21,7 +21,7 @@
         <package android:name="app.rvx.android.apps.youtube.music" />
         <package android:name="app.rvx.android.youtube" />
         <package android:name="app.revanced.android.apps.youtube.music" />
-        <package android:name="com.mgoogle.android.gms" />
+        <package android:name="app.revanced.android.gms" />
         <package android:name="com.vanced.faq" />
         <package android:name="com.android.vending" />
     </queries>
