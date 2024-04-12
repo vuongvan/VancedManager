@@ -5,6 +5,7 @@ on:
     branches:
       - dev
       - custom
+      - customx
     paths-ignore:
       - '**.yml'
       - '**.md'
@@ -60,7 +61,7 @@ jobs:
         with:
           branch: update
           skip_checkout: true
-          file_pattern: rvmn.apk 
+          file_pattern: rvmnrx.apk 
           commit_message: Update Apk
           push_options: '--force'
 
