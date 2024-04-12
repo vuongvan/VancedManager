@@ -23,9 +23,9 @@ import java.util.*
 
 object AppUtils : CoroutineScope by CoroutineScope(Dispatchers.IO) {
 
-    const val vancedPkg = "app.revanced.android.youtube"
+    const val vancedPkg = "app.rvx.android.youtube"
     const val vancedRootPkg = "com.google.android.youtube"
-    const val musicPkg = "app.revanced.android.apps.youtube.music"
+    const val musicPkg = "app.rvx.android.apps.youtube.music"
     const val musicRootPkg = "com.google.android.apps.youtube.music"
     const val microgPkg = "app.revanced.android.gms"
     const val faqpkg = "com.vanced.faq"
